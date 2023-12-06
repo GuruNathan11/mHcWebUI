@@ -1,0 +1,20 @@
+.destination-name-input11 {
+  flex: 1;
+}
+.name-input20 {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.form-fields14 {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 587px;
+  right: 245px;
+  left: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}

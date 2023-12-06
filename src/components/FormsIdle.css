@@ -1,0 +1,37 @@
+.rectangle3 {
+  position: absolute;
+  height: 63.49%;
+  width: 100%;
+  top: 36.51%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.final-size-width2,
+.parties2 {
+  position: absolute;
+  letter-spacing: -0.16px;
+}
+.final-size-width2 {
+  top: 0;
+  left: 0.67%;
+  line-height: 18px;
+}
+.parties2 {
+  top: calc(50% + 2.5px);
+  left: 13px;
+  line-height: 16px;
+  color: var(--color-darkslategray-300);
+}
+.formsidle {
+  position: relative;
+  width: 300px;
+  height: 63px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray-100);
+  font-family: var(--font-poppins);
+}

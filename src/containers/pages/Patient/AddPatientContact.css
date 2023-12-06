@@ -1,0 +1,256 @@
+.add-patient-contact-child,
+.doctor-tools-and-medical-eleme8 {
+  position: absolute;
+  top: 0;
+  left: -324px;
+  width: 1092px;
+  height: 780px;
+  display: none;
+  mix-blend-mode: screen;
+}
+.add-patient-contact-child {
+  top: 73px;
+  left: -195px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(19, 60, 147, 0.53),
+    rgba(19, 60, 147, 0.58)
+  );
+  width: 768px;
+  mix-blend-mode: normal;
+}
+.add-patient-contact-item {
+  position: absolute;
+  height: 100.11%;
+  width: 84.58%;
+  top: -0.11%;
+  right: 40%;
+  bottom: 0;
+  left: -24.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.error-message8 {
+  position: absolute;
+  top: 319px;
+  left: 815px;
+  font-size: var(--font-size-2xs);
+  font-weight: 300;
+  display: none;
+}
+.delete16,
+.delete17 {
+  position: relative;
+  font-weight: 500;
+}
+.delete17 {
+  font-size: var(--font-size-base);
+  display: none;
+}
+.delete-parent6,
+.frame-parent25 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.delete-parent6 {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro-400);
+  display: flex;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  align-items: flex-start;
+}
+.frame-parent25 {
+  position: absolute;
+  top: 275px;
+  left: 723px;
+  display: none;
+  align-items: center;
+  color: var(--color-darkslategray-100);
+}
+.add-patient-contact-inner {
+  position: absolute;
+  top: 201px;
+  left: -15px;
+  background-color: var(--color-silver-100);
+  width: 1222px;
+  height: 48px;
+  display: none;
+}
+.analytics6 {
+  position: absolute;
+  height: 3.1%;
+  top: 40.68%;
+  left: 624px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray-400);
+  display: inline-block;
+  width: 64px;
+}
+.add-patient-contact-child1 {
+  position: absolute;
+  width: calc(100% - 472px);
+  top: 89px;
+  right: 77px;
+  left: 395px;
+  background-color: var(--color-white);
+  border: 1px solid gainsboro;
+  box-sizing: border-box;
+  height: 716px;
+}
+.name-input30 {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.contactForm-fields32,
+.contactForm-fields33,
+.contactForm-fields34 {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 349px;
+  right: 114px;
+  left: 431px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.contactForm-fields33,
+.contactForm-fields34 {
+  top: 271px;
+}
+.contactForm-fields34 {
+  top: 193px;
+}
+.add-patient-contact-child2 {
+  position: absolute;
+  top: 229px;
+  left: 5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-aliceblue);
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: multiply;
+}
+.instance-child6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.add-patient-contact-inner1 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 59px;
+  cursor: pointer;
+}
+.add-patient-contact-child3 {
+  position: absolute;
+  width: calc(100% - 473px);
+  top: 158.5px;
+  right: 77.5px;
+  left: 395.5px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+.contact {
+  position: absolute;
+  top: 113px;
+  left: 429px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-black);
+}
+.add-patient-contact-child4 {
+  position: absolute;
+  top: 82.5px;
+  left: 321.5px;
+  border-right: 1px solid gainsboro;
+  box-sizing: border-box;
+  width: 1px;
+  height: 812px;
+}
+.contactForm-fields35,
+.contactForm-fields36 {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 426px;
+  right: 114px;
+  left: 431px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.contactForm-fields36 {
+  top: 508px;
+}
+.address-type {
+  position: absolute;
+  top: 585px;
+  left: 432px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-family: var(--font-roboto);
+  color: var(--color-lightsteelblue-200);
+}
+.frame-formcontrollabel {
+  flex: 1;
+}
+.frame-parent26 {
+  position: absolute;
+  width: calc(100% - 902px);
+  top: 617px;
+  right: 470px;
+  left: 432px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 165px;
+}
+.selectoutlined3 {
+  align-self: stretch;
+  flex: 1;
+}
+.contactForm-fields37 {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 682px;
+  right: 114px;
+  left: 431px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.union-icon8 {
+  position: relative;
+  width: 5px;
+  height: 40px;
+}
+.add-patient-contact {
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}

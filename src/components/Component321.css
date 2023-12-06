@@ -1,0 +1,283 @@
+.component-321-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: 0 1px 0#e7e9ec;
+}
+.avatar-icon {
+  position: absolute;
+  top: 14px;
+  left: 1211px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.merge-horizontal-icon {
+  position: absolute;
+  height: 16.67%;
+  width: 4.31%;
+  top: 40.91%;
+  right: 0;
+  bottom: 42.42%;
+  left: 95.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notifications-icon1 {
+  position: relative;
+  width: 17px;
+  height: 20px;
+}
+.group-child7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-crimson);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.div4 {
+  position: absolute;
+  top: 6.25%;
+  left: 25%;
+  letter-spacing: -0.29px;
+  font-weight: 500;
+}
+.rectangle-group {
+  position: absolute;
+  height: 66.67%;
+  width: 64%;
+  top: 0;
+  right: 0;
+  bottom: 33.33%;
+  left: 36%;
+}
+.mail-icon1,
+.notifications-parent {
+  position: absolute;
+  height: 72.73%;
+  width: 11.96%;
+  top: 12.12%;
+  right: 88.04%;
+  bottom: 15.15%;
+  left: 0;
+}
+.mail-icon1 {
+  width: 11.48%;
+  right: 62.68%;
+  left: 25.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-container {
+  position: absolute;
+  height: 48.48%;
+  width: 7.66%;
+  top: 12.12%;
+  right: 58.37%;
+  bottom: 39.39%;
+  left: 33.97%;
+}
+.cog-icon,
+.merge-horizontal-parent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.cog-icon {
+  height: 72.73%;
+  width: 11.48%;
+  top: 12.12%;
+  right: 37.8%;
+  bottom: 15.15%;
+  left: 50.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-container {
+  position: absolute;
+  height: 55%;
+  width: 16.33%;
+  top: 23.33%;
+  right: 1.88%;
+  bottom: 21.67%;
+  left: 81.8%;
+  font-family: var(--font-inter);
+}
+.component-321-item {
+  position: absolute;
+  height: 34.95%;
+  width: 14.06%;
+  top: 30%;
+  right: 43.75%;
+  bottom: 35.05%;
+  left: 42.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notifications-icon2 {
+  position: relative;
+  width: 17px;
+  height: 20px;
+  display: none;
+}
+.notification-important-24px-icon,
+.react-iconsioiomdnotificatio {
+  position: absolute;
+  height: 88.89%;
+  width: 82.76%;
+  top: 11.11%;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.react-iconsioiomdnotificatio {
+  right: 234.48%;
+  left: -217.24%;
+  display: none;
+}
+.notification-important-24px-icon {
+  right: 17.24%;
+  left: 0;
+}
+.div6,
+.group-child9 {
+  position: absolute;
+  top: 0;
+}
+.group-child9 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-crimson);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.div6 {
+  height: 81.25%;
+  width: 37.5%;
+  left: 31.25%;
+  letter-spacing: -0.29px;
+  font-weight: 600;
+  display: inline-block;
+}
+.rectangle-parent1 {
+  position: absolute;
+  height: 59.26%;
+  width: 55.17%;
+  top: 0;
+  right: 0;
+  bottom: 40.74%;
+  left: 44.83%;
+}
+.cog-icon1,
+.group-wrapper {
+  position: absolute;
+  height: 84.38%;
+  width: 19.33%;
+  top: 6.25%;
+  right: 80.67%;
+  bottom: 9.38%;
+  left: 0;
+}
+.cog-icon1 {
+  height: 75%;
+  width: 16%;
+  top: 12.5%;
+  right: 52.67%;
+  bottom: 12.5%;
+  left: 31.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.navigation-home-avatar-but {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.merge-horizontal-icon1 {
+  position: relative;
+  width: 9px;
+  height: 5.5px;
+}
+.navigation-home-avatar-but-parent {
+  position: absolute;
+  top: 0;
+  left: 99px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.group-parent1 {
+  position: absolute;
+  height: 53.33%;
+  width: 11.72%;
+  top: 21.67%;
+  right: 2.27%;
+  bottom: 25%;
+  left: 86.02%;
+  display: none;
+}
+.chevron-left-icon1,
+.file-document-icon6 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevron-left-icon1 {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.patient-management1 {
+  position: relative;
+  font-weight: 600;
+}
+.file-document-parent2 {
+  position: absolute;
+  top: 18px;
+  left: 78px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.component-321 {
+  position: relative;
+  width: 1280px;
+  height: 60px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

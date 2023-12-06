@@ -1,0 +1,12 @@
+{
+    "id": "",
+    "bedId": "",
+    "pid": "",
+    "wardBedInfo": "",
+    "occupied": true,
+    "genderRestriction": true,
+    "bedAssignDateTime": "",
+    "dischargeDateTime": "",
+    "assignedBy": "",
+    "admitDate": null
+  }

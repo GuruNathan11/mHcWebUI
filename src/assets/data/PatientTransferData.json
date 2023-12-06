@@ -1,0 +1,14 @@
+{
+  "pid": "",
+  "admitId": "",
+  "wardLocation": "",
+  "bedId": "",
+  "typeOfTransfer": "",
+  "transferedDate": null,
+  "transferedBy": "",
+  "briefDescriptionTransfer": "",
+  "attendingPhysician1": "",
+  "primaryPhysician1": "",
+  "facilityTreatingSpeciality1": "",
+  "lastVisit": ""
+}

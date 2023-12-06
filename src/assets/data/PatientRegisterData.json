@@ -1,0 +1,682 @@
+{
+  "id": "",
+  "active": "",
+  "resource": [
+    {
+      "fullUrl": "",
+      "resourceType": ""
+    }
+  ],
+  "basicDetails": [
+    {
+      "coding": [
+        {
+          "system": "",
+          "code": "",
+          "display": ""
+        }
+      ],
+      "name": [
+        {
+          "use": "",
+          "given": "",
+          "family": ""
+        }
+      ],
+      "profile": null,
+      "ssn": "",
+      "licenseId": "",
+      "confirmEmail": "",
+      "gender": "",
+      "birthDate": null,
+      "_birthDate": [
+        {
+          "extension": [
+            {
+              "url": ""
+            }
+          ]
+        }
+      ],
+      "maritalStatus": "",
+      "sexualOrientation": ""
+    }
+  ],
+  "email": "",
+  "organization": "",
+  "contact": [
+    {
+      "address": [
+        {
+          "addressLine1": "",
+          "addressLine2": "",
+          "city": "",
+          "state": "",
+          "postalCode": "",
+          "country": ""
+        }
+      ],
+      "motherName": "",
+      "firstName": "",
+      "lastName": "",
+      "homePhone": "",
+      "workPhone": "",
+      "mobilePhone": "",
+      "contactEmail": "",
+      "trustedEmail": "",
+      "emergency": [
+        {
+          "relationShip": "",
+          "emergencyContact": "",
+          "emergencyPhone": ""
+        }
+      ],
+      "additionalAddress": [
+        {
+          "addressUse": "",
+          "addressType": "",
+          "startDate": null,
+          "endDate": null,
+          "addressLine1": "",
+          "addressLine2": "",
+          "city": "",
+          "district": "",
+          "state": "",
+          "postalCodeNumber": "",
+          "country": ""
+        }
+      ]
+    }
+  ],
+  "userType": "Patient",
+  "employer": [
+    {
+      "occupation": "",
+      "city": "",
+      "state": "",
+      "postalCode": "",
+      "country": "",
+      "unassignedUSA": "",
+      "industry": "",
+      "addressLine2": "",
+      "addressLine1": ""
+    }
+  ],
+  "guardian": [
+    {
+      "name": "",
+      "relationship": "",
+      "gender": "",
+      "address": [
+        {
+          "addressLine1": "",
+          "addressLine2": "",
+          "city": "",
+          "state": "",
+          "postalCode": "",
+          "country": ""
+        }
+      ],
+      "workPhone": "",
+      "email": ""
+    }
+  ],
+  "misc": [
+    {
+      "dateDeceased": null,
+      "reason": ""
+    }
+  ],
+  "stats": [
+    {
+      "languageDeclined": true,
+      "ethnicityDeclined": true,
+      "raceDeclined": true,
+      "language": "",
+      "ethnicity": "",
+      "race": "",
+      "familySize": 0,
+      "monthlyIncome":"",
+      "financialReviewDate": null,
+      "homeless": "",
+      "interpreter": "",
+      "migrant": "",
+      "referralSource": "",
+      "religion": "",
+      "vfc": ""
+    }
+  ],
+  "insurance": [
+    {
+      "primary": [
+        {
+          "planName": "",
+          "subscriber": "",
+          "effectivedate": null,
+          "relationship": "",
+          "policyNumber": "",
+          "birthDate": null,
+          "groupNumber": "",
+          "subscriberPhone": "",
+          "ss": "",
+          "city": "",
+          "state": "",
+          "zipCode": "",
+          "title": "",
+          "country": "",
+          "seaddress": "",
+          "subscriberEmployee": "",
+          "gender": "",
+          "subscriberAddress": [
+            {
+              "addressLine1": "",
+              "addressLine2": "",
+              "city": "",
+              "state": "",
+              "country": "",
+              "zipCode": ""
+            }
+          ],
+          "co_pay": "",
+          "acceptAssignment": ""
+        }
+      ],
+      "secondary": [
+        {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }, {
+          "insuranceDetails": {
+            "planName": "",
+            "subscriber": "",
+            "effectivedate": null,
+            "relationship": "",
+            "policyNumber": "",
+            "birthDate": null,
+            "groupNumber": "",
+            "ss": "",
+            "subscriberPhone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "title": "",
+            "country": "",
+            "seaddress": "",
+            "subscriberEmployee": "",
+            "gender": "",
+            "subscriberAddress": [
+              {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+              }
+            ],
+            "co_pay": "",
+            "acceptAssignment": ""
+          }
+        }
+      ]
+    }
+  ],
+  "familyHealth": [
+    {
+      "name":"Father",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Mother",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Sibling(s)",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Son(s)",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Daughter(s)",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Paternal Grandfather",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Paternal Grandmother",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Maternal Grandfather",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Maternal Grandmother",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Paternal Uncle",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Paternal Aunt",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Maternal Uncle",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  },
+  {
+      "name":"Maternal Aunt",
+      "deceadsed": "No",
+      "diabetes": "Yes",
+      "disease": "--",
+      "stroke": "No",
+      "mentalIllness": "--",
+      "cancer": "--",
+      "unknown": "--",
+      "other": "--"
+  }
+  ],
+  "socialHistory": [
+    {
+      "smoker": "",
+      "smokePerDay": 0,
+      "everSmoked": "",
+      "smokeYears": 0,
+      "quitYear": 0,
+      "quitIntrest": "",
+      "drinkAlcohal": "",
+      "recreationalDrugs": "",
+      "pastAlcohal": "",
+      "tabaccoUse": "",
+      "usingTime": 0,
+      "partner": "",
+      "sexInfection": "",
+      "caffine": "",
+      "migrantOrSeasonal": "",
+      "usePerDay": 0,
+      "occupation": "",
+      "maritalStatus": "",
+      "child": "",
+      "noOfChild": 0,
+      "childAge": [
+        0
+      ],
+      "sexActive": ""
+    }
+  ]
+}

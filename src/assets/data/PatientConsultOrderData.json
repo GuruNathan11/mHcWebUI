@@ -1,0 +1,16 @@
+{
+    "id": "",
+    "pid": "",
+    "lastVisit": "",
+    "speciality": "",
+    "urgency": "",
+    "serviceProblem": "",
+    "appropriateDate": null,
+    "observed": true,
+    "placeOfConsultation": "",
+    "provisionalDiagnosis": "",
+    "orderedBy": "",
+    "enteredBy": "",
+    "comments": "",
+    "organization": ""
+  }

@@ -1,0 +1,60 @@
+{
+  "id": "",
+  "psychiatrists": [
+    "","","",""
+  ],
+  "medicalDoctor": [
+    "","","",""
+  ],
+  "nursePractitioner": [
+    "","","",""
+  ],
+  "physicianAssistant": [
+    "","","",""
+  ],
+  "psychologist": [
+    "","","",""
+  ],
+  "registeredNurses": [
+    "","","",""
+  ],
+  "socialWorkers": [
+    "","","",""
+  ],
+  "activityTherapist": [
+    "","","",""
+  ],
+  "yogaTherapist": [
+    "","","",""
+  ],
+  "mentalHealthWorkers": [
+    "","","",""
+  ],
+  "rROfficer": [
+    "","","",""
+  ],
+  "nurseManagers": [
+    "","","",""
+  ],
+  "dirOfNursing": [
+    "","","",""
+  ],
+  "executives": [
+    "","","",""
+  ],
+  "dirOfHIM": [
+    "","","",""
+  ],
+  "regDietitian": [
+    "","","",""
+  ],
+  "createdAt": "",
+  "updatedAt": "",
+  "pid": [],
+  "qrdirector": [
+    "","","",""
+  ],
+  "hr": [
+     "","","",""
+  ]
+}

@@ -1,0 +1,130 @@
+.secondary-analytics11 {
+  position: absolute;
+  height: 3.08%;
+  top: 19.11%;
+  left: 193px;
+  font-weight: 600;
+  display: inline-block;
+  width: 64px;
+}
+.secondary-destination-name-input60 {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.secondary-name-input77 {
+  flex: 1;
+}
+.secondary-form-fields66 {
+  top: 799px;
+  gap: var(--gap-3xs);
+}
+.secondary-form-fields66,
+.secondary-form-fields67,
+.secondary-form-fields68 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secondary-form-fields67 {
+  top: 457px;
+  gap: var(--gap-3xs);
+}
+.secondary-form-fields68 {
+  top: 542px;
+}
+.secondary-form-selectoutlined9 {
+  align-self: stretch;
+  flex: 1;
+}
+.secondary-form-fields69,
+.secondary-form-fields70 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.secondary-form-fields69 {
+  position: absolute;
+  width: 100%;
+  top: 170px;
+  right: 0;
+  left: 0;
+}
+.secondary-form-fields70 {
+  top: 255px;
+}
+.secondary-form-fields70,
+.secondary-form-fields71,
+.secondary-form-fields72 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.secondary-form-fields71 {
+  top: 340px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.secondary-form-fields72 {
+  top: 628px;
+}
+.secondary-form-fields72,
+.secondary-form-fields73,
+.secondary-form-fields74 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.secondary-form-fields73 {
+  position: absolute;
+  width: 100%;
+  top: 877px;
+  right: 0;
+  left: 0;
+}
+.secondary-form-fields74 {
+  top: 716px;
+}
+.secondary-form-fields74,
+.secondary-form-fields75,
+.secondary-form-fields76 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.secondary-form-fields75 {
+  top: 85px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.secondary-form-fields76 {
+  top: 0;
+}
+.secondary-analytics-parent {
+  position: absolute;
+  top: 292px;
+  left: 431px;
+  width: calc(100% - 547px);
+  height: 906px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,21 @@
+.destination-ContainerForm1-input74 {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.selectoutlined11 {
+  align-self: stretch;
+  flex: 1;
+}
+.ContainerForm1-fields77 {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 321px;
+  right: 114px;
+  left: 431px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}

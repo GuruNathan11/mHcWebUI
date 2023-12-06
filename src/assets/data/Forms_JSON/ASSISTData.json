@@ -1,0 +1,564 @@
+[
+    {
+        "page_label": "Abnormal Involuntary Movement Scale",
+        "fields": [
+            {
+                "id": "aims_name",
+                "label": "Veteran's Name:",
+                "mandatory": true,
+                "placeholder": "Enter name",
+                "fieldType": "text",
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "id": "aims_date",
+                "label": "Date:",
+                "mandatory": true,
+                "placeholder": "MM/DD/YYYY",
+                "fieldType": "date", 
+                "size": "Medium",
+                "fieldValue": null
+            },
+            {
+                "id": "aims_dob",
+                "label": "Veteran's DOB:",
+                "mandatory": true,
+                "placeholder": "MM/DD/YYYY",
+                "fieldType": "date", 
+                "size": "Medium",
+                "fieldValue": null
+            },
+            {
+                "id": "aims_ssn",
+                "label": "Last four digits of SSN:",
+                "mandatory": true,
+                "placeholder": "",
+                "fieldType": "text",
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "id": "aims_staff",
+                "label": "Staff:",
+                "mandatory": true,
+                "placeholder": "",
+                "fieldType": "text", 
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "id": "aims_location",
+                "label": "Location:",
+                "mandatory": true,
+                "placeholder": "",
+                "fieldType": "text", 
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "Complete Examination Procedure before making ratings. MOVEMENT RATINGS: Rate highest severity observed. Rate movements that occur upon activation one LESS than those observed spontaneously",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "1. Facial and Oral Movements Muscles of facial expression, e.g., movements of forehead, eyebrows, periorbital area, cheeks. Include frowning, blinking, grimacing of upper face.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_facial_expression_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            }, 
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },   
+            {            
+                "label": "2. Facial and Oral Movements Lips and perioral area, e.g., puckering, pouting, smacking.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_lips_perioral_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "3. Facial and Oral Movements Jaw, e.g., biting, clenching, chewing, mouth opening, lateral movement.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_jaw_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "4. Facial and Oral Movements Tongue. Rate only increase in movement both in and out of mouth, not inability to sustain movement.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_tongue_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "5. Extremity Movements Upper (arms, wrists, hands, fingers). Include movements that are choreic (rapid, objectively purposeless, Irregular, spontaneous) or athetoid (slow, irregular, complex, serpentine). Do not include tremor (repetitive, regular, rhythmic movements).",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_extremity_upper_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "6. Extremity Movements Lower (legs, knees, ankles, toes), e.g., lateral knee movement, foot tapping, heel dropping, foot squirming, Inversion and eversion of foot. ",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_extremity_lower_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "7. Trunk Movements Neck, shoulders, hips, e.g., rocking, twisting, squirming, pelvic gyrations. Include diaphragmatic movements",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_trunk_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "8. Global Judgments Severity of abnormal movements.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_severity_abnormal_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "9. Global Judgments Incapacitation due to abnormal movements.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_incapacitation_abnormal_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "10. Global Judgments Patient's awareness of abnormal movements. Rate only patient's report",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_patient_awareness_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "11. Dental Status Current problems with teeth and/or dentures.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_current_problem_teeth",
+                "fieldType": "multiselect",     
+                "fieldSelect": "one",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. no",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. yes",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            },
+            {            
+                "label": "12. Dental Status Does patient usually wear dentures?",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "size": "Large"           
+            },
+            {
+                "id": "aims_patient_wear_dentures",
+                "fieldType": "multiselect",     
+                "fieldSelect": "one",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. no",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. yes",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "size": "Large"           
+            }
+            
+        ]
+    }
+]

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.admit-patient-dropdown,
+.admit-patient-inputs-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.admit-patient-inputs-row {
+    flex: 1;
+    padding: var(--padding-8xs);
+}
+
+.admit-patient-dropdown {
+    position: absolute;
+    top: 39px;
+    left: 21px;
+    width: calc(100% - 39px);
+}
+
+.admit-patient-departure-field {
+    align-self: stretch;
+    flex: 1;
+}
+
+.admit-patient-profileName {
+    color: var(--default, #3F3F46);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.admit-patient-ss {
+    display: flex;
+    padding: 3px 14px;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 33px;
+    border: 1px solid #E2E7F4;
+    background: #ECF1FF;
+}
+
+.admit-patient-add-visit {
+    color: #1F489F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-wrap:nowrap;
+    letter-spacing: 0.2px;
+}
+
+.patientStaff {
+    position: absolute;
+    width: calc(100% - 269px);
+    top: 39px;
+    right: 925px;
+    left: 23px;
+    height: 24px;
+  }
+
+  .psaAssignment-details-child2 {
+    position: absolute;
+    width: calc(100% - 154px);
+    top: 73.5px;
+    right: 210.5px;
+    left: 131px;
+    border-top: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    height: 1px;
+  }
+  
+.admit-patient-departure-fields {
+    align-self: stretch;
+    flex: 1;
+    top:83px;
+}
+
+@media screen and (max-width: 960px) {
+    .admit-patient-inputs-row {
+        width: 100%;
+        flex: unset;
+        align-self: stretch;
+    }
+
+    .admit-patient-dropdown {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .admit-patient-departure-field {
+        flex: unset;
+        align-self: stretch;
+    }
+}

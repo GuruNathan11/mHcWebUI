@@ -1,0 +1,19 @@
+{
+    "id": "",
+    "patientId": "",
+    "immunization": "",
+    "lotNo": "",
+    "dueDate": "",
+    "doneDate": "",
+    "administrationDate": "",
+    "administeredBy": "",
+    "orderedBy": "",
+    "route": "",
+    "anatomicLocation": "",
+    "series": "",
+    "dosage": "",
+    "administeringByPolicy": true,
+    "includeNonVAProviders": true,
+    "comments": "",
+    "lastVisit":""
+  }

@@ -1,0 +1,28 @@
+{
+  "id": "",
+  "patientId": "",
+  "causativeAgentName": "",
+  "enteredDate": "",
+  "updatedDate": "",
+  "dateOfOnset": null,
+  "physicianName": "",
+  "allergyType": "",
+  "specificAllergen": "",
+  "treatmentPlan": "",
+  "otherReleventMedicalCondition": "",
+  "medicationHistory": "",
+  "symptoms": [
+    ""
+  ],
+  "allergySeverity": "",
+  "familyHistoryOfAllergies": "",
+  "natureOfReaction": "",
+  "comments": "",
+  "observed": "",
+  "inactive": true,
+  "observedDetails": {
+    "reactionDateTime": null,
+    "dateOfLastReaction": ""
+  },
+  "lastVisit": ""
+}

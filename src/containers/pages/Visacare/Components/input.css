@@ -1,0 +1,63 @@
+:root {
+
+    --input__border: rgba(0, 0, 0, 0.42);
+   
+}
+  .floating__input {
+    padding: 1.8rem 1rem 0.6rem;
+    font-size: 1rem;
+    border: 0.1rem solid var(--input__border);
+    transition: border-color 0.2s ease;
+    caret-color: var(--color__accent);
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+
+  .floating__input::placeholder {
+    color: rgba(132, 148, 183, 0.445);
+    font-weight: 400;
+  }
+  
+
+  .floating__label::before {
+    color: var(--label__color);
+    content: attr(data-content);
+    display: inline-block;
+    filter: blur(0);
+    backface-visibility: hidden;
+    transform-origin: left top;
+    transition: transform 0.2s ease;
+    left: 1rem;
+    position: relative;
+  }
+ 
+  .floating__input:placeholder-shown + .floating__label::before {
+    transform: translate3d(0, -2.2rem, 0) scale3d(1, 1, 1);
+  }
+  
+  .floating__label::before,
+  .floating__input:focus + .floating__label::before {
+     background-color: #ffffff;
+      transform: translate3d(0, -64.82px, 0) scale3d(0.82, 0.82, 1);
+  }
+
+  select {
+    background: white;
+    border-width: 0;
+    display: block;
+    width: 100%;
+  }
+
+
+
+  .hidden--visually {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    padding: 0;
+    width: 1px;
+  }

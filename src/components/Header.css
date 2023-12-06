@@ -1,0 +1,192 @@
+.component-516-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: 0 1px 2px rgba(137, 161, 206, 0.25);
+}
+.merge-horizontal-icon2,
+.navigation-home-avatar-but1 {
+  position: absolute;
+  height: 100%;
+  width: 15.79%;
+  top: 0;
+  right: 6.22%;
+  bottom: 0;
+  left: 77.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.merge-horizontal-icon2 {
+  height: 16.67%;
+  width: 4.31%;
+  top: 40.91%;
+  right: 0;
+  bottom: 42.42%;
+  left: 95.69%;
+}
+.notifications-icon5 {
+  position: relative;
+  width: 17px;
+  height: 20px;
+}
+.group-child34 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-crimson);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.div12 {
+  position: absolute;
+  top: 6.25%;
+  left: 25%;
+  letter-spacing: -0.29px;
+  font-weight: 500;
+}
+.rectangle-parent8 {
+  position: absolute;
+  height: 66.67%;
+  width: 64%;
+  top: 0;
+  right: 0;
+  bottom: 33.33%;
+  left: 36%;
+}
+.mail-icon4,
+.notifications-container {
+  position: absolute;
+  height: 72.73%;
+  width: 11.96%;
+  top: 12.12%;
+  right: 88.04%;
+  bottom: 15.15%;
+  left: 0;
+}
+.mail-icon4 {
+  width: 11.48%;
+  right: 62.68%;
+  left: 25.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent9 {
+  position: absolute;
+  height: 48.48%;
+  width: 7.66%;
+  top: 12.12%;
+  right: 58.37%;
+  bottom: 39.39%;
+  left: 33.97%;
+}
+.cog-icon2,
+.navigation-home-avatar-but-group {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.cog-icon2 {
+  height: 72.73%;
+  width: 11.48%;
+  top: 12.12%;
+  right: 37.8%;
+  bottom: 15.15%;
+  left: 50.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent3 {
+  position: absolute;
+  height: 55%;
+  width: 17.15%;
+  top: 23.33%;
+  right: 1.97%;
+  bottom: 21.67%;
+  left: 80.89%;
+}
+.component-516-item {
+  position: absolute;
+  height: 34.95%;
+  width: 14.77%;
+  top: 30%;
+  right: 45.94%;
+  bottom: 35.05%;
+  left: 39.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.chevron-left-icon4,
+.file-document-icon14 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.file-document-icon14 {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.chevron-left-icon4 {
+  width: 24px;
+  height: 24px;
+}
+.patient-management4 {
+  position: relative;
+  font-weight: 600;
+}
+.file-document-parent6 {
+  position: absolute;
+  height: 45%;
+  width: 13.7%;
+  top: 30%;
+  right: 84.33%;
+  bottom: 25%;
+  left: 1.97%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+}
+.component-516-inner {
+  position: absolute;
+  height: 100%;
+  width: 19.28%;
+  top: 0;
+  right: 80.64%;
+  bottom: 0;
+  left: 0.08%;
+  cursor: pointer;
+}
+.component-516 {
+  position: absolute;
+  top: 0;
+  left: 61px;
+  width: 1219px;
+  height: 60px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

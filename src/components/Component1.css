@@ -1,0 +1,55 @@
+.component-1-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -52px;
+  right: 0;
+  bottom: 0;
+  left: -60px;
+  border-radius: 31px;
+  background-color: lavender;
+}
+.avatar-icon1,
+.avatar2-icon {
+  position: absolute;
+  height: 80%;
+  width: 13.87%;
+  top: -163%;
+  right: 81.5%;
+  bottom: 10%;
+  left: -30.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.avatar2-icon {
+  top: 10.83%;
+  right: 81.36%;
+  bottom: 9.17%;
+  left: 4.77%;
+  display: none;
+}
+.vector-icon1 {
+  position: absolute;
+  top: calc(50% - 57px);
+  left: 90px;
+  right: 14px;
+  width: 10px;
+  height: 10px;
+}
+.doug-mcmillan {
+  position: absolute;
+  top: -150.33%;
+  left: -12%;
+  letter-spacing: -0.16px;
+  line-height: 16px;
+}
+.component-1 {
+  position: relative;
+  width: 173px;
+  height: 30px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-poppins);
+}

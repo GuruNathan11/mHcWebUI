@@ -1,0 +1,346 @@
+.add-patient-basic-details-child,
+.doctor-tools-and-medical-eleme {
+  position: absolute;
+  top: 0;
+  left: -324px;
+  width: 1092px;
+  height: 780px;
+  display: none;
+  mix-blend-mode: screen;
+}
+.add-patient-basic-details-child {
+  top: 73px;
+  left: -195px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(19, 60, 147, 0.53),
+    rgba(19, 60, 147, 0.58)
+  );
+  width: 768px;
+  mix-blend-mode: normal;
+}
+.add-patient-basic-details-item {
+  position: absolute;
+  height: 100.11%;
+  width: 84.58%;
+  top: -0.11%;
+  right: 40%;
+  bottom: 0;
+  left: -24.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.error-message {
+  position: absolute;
+  top: 319px;
+  left: 815px;
+  font-size: var(--font-size-2xs);
+  font-weight: 300;
+  display: none;
+}
+.delete,
+.delete1 {
+  position: relative;
+  font-weight: 500;
+}
+.delete1 {
+  font-size: var(--font-size-base);
+  display: none;
+}
+.delete-parent,
+.frame-parent3 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.delete-parent {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro-400);
+  display: flex;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  align-items: flex-start;
+}
+.frame-parent3 {
+  position: absolute;
+  top: 275px;
+  left: 723px;
+  display: none;
+  align-items: center;
+  color: var(--color-darkslategray-100);
+}
+.add-patient-basic-details-inner {
+  position: absolute;
+  top: 201px;
+  left: -15px;
+  background-color: var(--color-silver-100);
+  width: 1222px;
+  height: 48px;
+  display: none;
+}
+.analytics {
+  position: absolute;
+  height: 3.1%;
+  top: 40.68%;
+  left: 624px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray-400);
+  display: inline-block;
+  width: 64px;
+}
+.add-patient-basic-details-child1 {
+  position: absolute;
+  width: calc(100% - 472px);
+  top: 89px;
+  right: 77px;
+  left: 395px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-600);
+  box-sizing: border-box;
+  height: 569px;
+}
+.destination-name-input {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.name-input {
+  flex: 1;
+}
+.basicDetailsForm-fields {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 433px;
+  right: 114px;
+  left: 431px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.add-patient-basic-details-child2 {
+  position: absolute;
+  top: 229px;
+  left: 5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-aliceblue);
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: multiply;
+}
+.instance-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangle-nav {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 59px;
+  cursor: pointer;
+}
+.line-div {
+  position: absolute;
+  width: calc(100% - 473px);
+  top: 158.5px;
+  right: 77.5px;
+  left: 395.5px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+.basic-details {
+  position: absolute;
+  top: 113px;
+  left: 429px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-black);
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.basicDetailsForm-fields1,
+.name-input1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name-input1 {
+  flex: 1;
+  height: 1px;
+  flex-direction: column;
+}
+.basicDetailsForm-fields1 {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 352px;
+  right: 114px;
+  left: 431px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.basicDetailsForm-fields2 {
+  position: absolute;
+  width: calc(100% - 793px);
+  top: 197px;
+  right: 362px;
+  left: 431px;
+}
+.bg-icon2,
+.label2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.bg-icon2 {
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.label2 {
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.previous {
+  position: relative;
+  width: 87px;
+  height: 32px;
+  display: none;
+}
+.cancel-parent {
+  width: 291px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-xl);
+}
+.add-patient-basic-details-inner1 {
+  position: absolute;
+  height: 6.67%;
+  width: calc(100% - 59px);
+  top: 93.44%;
+  right: -2px;
+  bottom: -0.11%;
+  left: 61px;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-79xl);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-darkslategray-200);
+}
+.basicDetailsForm-fields3 {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 274px;
+  right: 114px;
+  left: 431px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-child1 {
+  position: relative;
+  border-radius: var(--br-11xs);
+  width: 238px;
+  height: 56px;
+  z-index: 0;
+}
+.upload-profile-pic {
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+  left: 34px;
+  z-index: 1;
+}
+.check-boxgary-wrapper,
+.vector-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.vector-parent {
+  position: absolute;
+  top: 197px;
+  right: 114px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.check-boxgary-wrapper {
+  flex-direction: row;
+  align-items: center;
+}
+.name-input5 {
+  align-self: stretch;
+}
+.basicDetailsForm-fields4,
+.frame-parent4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-parent4 {
+  flex: 1;
+  flex-direction: column;
+}
+.basicDetailsForm-fields4 {
+  position: absolute;
+  width: calc(100% - 545px);
+  top: 520px;
+  right: 114px;
+  left: 431px;
+  flex-direction: row;
+}
+.add-patient-basic-details-child3 {
+  position: absolute;
+  top: 95.5px;
+  left: 321.5px;
+  border-right: 1px solid var(--color-gainsboro-500);
+  box-sizing: border-box;
+  width: 1px;
+  height: 745px;
+}
+.union-icon {
+  position: relative;
+  width: 5px;
+  height: 40px;
+}
+.add-patient-basic-details {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-tomato);
+  font-family: var(--font-poppins);
+}

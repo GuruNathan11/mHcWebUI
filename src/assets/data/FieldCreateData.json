@@ -1,0 +1,29 @@
+{
+  "id": "",
+  "formName": "",
+  "fieldId": "",
+  "fieldLabel": "",
+  "fieldKeyLabel": "",
+  "organization": "",
+  "fieldPlaceholder": "",
+  "fieldType": "",
+  "fieldSelect": "",
+  "encryption": true,
+  "fieldSize": "",
+  "fieldValue": "",
+  "fieldValue1": [
+    ""
+  ],
+  "fieldValue2": true,
+  "fieldOptions1": [
+    ""
+  ],
+  "fieldOptions": [
+    {
+      "optionLabel": "",
+      "optionValue": true,
+      "optionSize": ""
+    }
+  ],
+  "mandatory": true
+}

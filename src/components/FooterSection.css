@@ -1,0 +1,26 @@
+.cancel-parent3 {
+  width: 291px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-xl);
+}
+.add-patient-family-health-his-inner2 {
+  position: absolute;
+  height: 6.38%;
+  width: calc(100% - 45px);
+  top: 93.72%;
+  right: -2px;
+  bottom: -0.11%;
+  left: 45px;
+  margin-top: 53px;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-79xl);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+}

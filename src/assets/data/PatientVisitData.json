@@ -1,0 +1,17 @@
+{
+  "id": "",
+  "visitStartDate": null,
+  "visitEndDate": null,
+  "visitReason": "",
+  "visitType": "",
+  "status": "",
+  "location": "",
+  "admitDate": null,
+  "dischargeDate": null,
+  "speciality": "",
+  "refferingPhysycian": "",
+  "schedule": true,
+  "lastVisit": "",
+  "pid": "",
+  "organization": ""
+}

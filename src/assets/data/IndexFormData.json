@@ -1,0 +1,29 @@
+{
+  "id": "",
+  "title": "",
+  "content": [
+    {
+      "id": "",
+      "heading": "",
+      "institutionName": "",
+      "policyTitle": "",
+      "policyNumber": "",
+      "effectiveDate": null,
+      "department": "",
+      "subHeading": [
+        {
+          "id": "",
+          "indexContent": "",
+          "content": "",
+          "indexContent1": [
+            {
+              "id": "",
+              "indexContent": "",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

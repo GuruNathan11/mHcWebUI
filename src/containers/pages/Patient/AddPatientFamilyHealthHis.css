@@ -1,0 +1,268 @@
+.add-patient-family-health-his-child,
+.doctor-tools-and-medical-eleme2 {
+  position: absolute;
+  top: 0;
+  left: -324px;
+  width: 1092px;
+  height: 780px;
+  display: none;
+  mix-blend-mode: screen;
+}
+.add-patient-family-health-his-child {
+  top: 73px;
+  left: -195px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(19, 60, 147, 0.53),
+    rgba(19, 60, 147, 0.58)
+  );
+  width: 768px;
+  mix-blend-mode: normal;
+}
+.add-patient-family-health-his-item {
+  position: absolute;
+  height: 100.11%;
+  width: 84.58%;
+  top: -0.11%;
+  right: 40%;
+  bottom: 0;
+  left: -24.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.error-message2 {
+  position: absolute;
+  top: 319px;
+  left: 815px;
+  font-weight: 300;
+  display: none;
+}
+.delete4,
+.delete5 {
+  position: relative;
+  font-weight: 500;
+}
+.delete5 {
+  font-size: var(--font-size-base);
+  display: none;
+}
+.delete-container,
+.frame-parent16 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.delete-container {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro-400);
+  display: flex;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  align-items: flex-start;
+}
+.frame-parent16 {
+  position: absolute;
+  top: 275px;
+  left: 723px;
+  display: none;
+  align-items: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.add-patient-family-health-his-inner {
+  position: absolute;
+  top: 201px;
+  left: -15px;
+  background-color: var(--color-silver-100);
+  width: 1222px;
+  height: 48px;
+  display: none;
+}
+.add-patient-family-health-his-child1 {
+  position: absolute;
+  top: 229px;
+  left: 5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-aliceblue);
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: multiply;
+}
+.instance-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.add-patient-family-health-his-inner1 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 59px;
+  cursor: pointer;
+}
+.add-patient-family-health-his-child2 {
+  position: absolute;
+  top: 82.5px;
+  left: 321.5px;
+  border-right: 1px solid gainsboro;
+  box-sizing: border-box;
+  width: 1px;
+  height: 852px;
+}
+.add-patient-family-health-his-child3 {
+  position: absolute;
+  top: 129px;
+  left: 342px;
+  border-top: 2px solid gainsboro;
+  box-sizing: border-box;
+  width: 896px;
+  height: 2px;
+}
+.deceased-d {
+  top: 14px;
+  left: 192px;
+  line-height: 16px;
+  display: inline-block;
+  width: 65px;
+}
+.deceased-d,
+.disease,
+.name10,
+.stroke {
+  position: absolute;
+  font-weight: 500;
+}
+.name10 {
+  top: 31px;
+  left: 7px;
+  line-height: 16px;
+  display: inline-block;
+  width: 65px;
+}
+.disease,
+.stroke {
+  top: 30px;
+  left: 385px;
+}
+.stroke {
+  left: 466px;
+}
+.mental-illness-type {  
+  left: 547px;
+  line-height: 16px;
+  display: inline-block;
+  width: 84px;
+}
+.cancertype,
+.mental-illness-type,
+.other,
+.unknown {
+  position: absolute;
+  font-weight: 500;
+}
+.cancertype {
+  top: 15px;
+  left: 645px;
+  line-height: 16px;
+  display: inline-block;
+  width: 49px;
+}
+.other,
+.unknown {
+  top: 32px;
+  line-height: 14px;
+}
+.unknown {
+  left: 730px;
+  display: inline-block;
+  width: 57px;
+}
+.other {
+  left: 821px;
+}
+.diabetes {
+  margin: 0;
+}
+.diabetes-hypertension-heart-container {
+  position: absolute;
+  top: 0;
+  left: 279px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.deceased-d-parent {
+  position: absolute;
+  top: 140px;
+  left: 345px;
+  width: 890px;
+  height: 48px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray);
+}
+.family-health-history {
+  position: absolute;
+  top: 90px;
+  left: 343px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-black);
+}
+.union-icon2 {
+  position: relative;
+  width: 5px;
+  height: 40px;
+}
+.add-patient-family-health-his {
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 940px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-tomato);
+  font-family: var(--font-poppins);
+}
+
+.add-patient-family-health-his-datatable{
+  position: absolute;
+  left: 342px;
+  width: calc(100% - 363px);
+  top: 131px;
+}
+
+.add-patient-familyHealthHis-additional-child3 {
+  position: absolute;
+  width: calc(100% - 362px);
+  top: 125.5px;
+  right: 77.5px;
+  left: 342px;
+  border-top: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+
+.familyHealthHis {
+  position: absolute;
+  top: 86px;
+  left: 342px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.add-patient-familyHealthHis-additional-child4 {
+  position: absolute;
+  top: 82.5px;
+  left: 321.5px;  
+  border-right: 1px solid gainsboro;
+  box-sizing: border-box;
+  width: 1px;
+  height: 812px;
+}

@@ -1,0 +1,13 @@
+﻿
+import { combineReducers } from "redux";
+import { loginData,loginSecurityData,forgotpasswordData,resetPasswordData,verifyLoginData,verifyOTPData } from "./Login";
+import { allOrganizationData,updateOrganizationData,createOrganizationData,getByIdOrganizationData } from "./Organization";
+import {createPatientData,getAllPatientData,getByIdPatientData,getPatientByInputData,dischargePatientById,updatePatientData} from "./Patient";
+
+
+
+const reducers = combineReducers({
+  allOrganizationData, updateOrganizationData,createOrganizationData,getByIdOrganizationData,createPatientData, loginData,loginSecurityData, forgotpasswordData,resetPasswordData,  verifyLoginData,verifyOTPData,
+  getAllPatientData,getByIdPatientData,getPatientByInputData,dischargePatientById,updatePatientData
+});
+export default reducers;

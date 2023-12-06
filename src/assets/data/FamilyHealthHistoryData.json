@@ -1,0 +1,145 @@
+[
+    {
+        "name":"Father",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Mother",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Sibling(s)",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Son(s)",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Daughter(s)",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Paternal Grandfather",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Paternal Grandmother",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Maternal Grandfather",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Maternal Grandmother",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Paternal Uncle",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Paternal Aunt",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Maternal Uncle",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    },
+    {
+        "name":"Maternal Aunt",
+        "deceadsed": "No",
+        "diabetes": "Yes",
+        "disease": "--",
+        "stroke": "No",
+        "mentalIllness": "--",
+        "cancer": "--",
+        "unknown": "--",
+        "other": "--"
+    }
+]

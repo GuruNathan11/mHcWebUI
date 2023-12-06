@@ -1,0 +1,26 @@
+
+{
+    "id": "",
+    "pid": "",
+    "admissionDate": null,
+    "dischargeDate": null,
+    "transferedDate": null,
+    "admissionType": "",
+    "typeOfTransfer": "",
+    "transferedBy": "",
+    "dischargeType": "",
+    "dischargeBy": "",
+    "attendingPhysician": "",
+    "primaryPhysician": "",
+    "facilityTreatingSpeciality": "",
+    "sourceOfAdmission": "",
+    "wardLocation": "",
+    "bedId": "",
+    "briefDescription": "",
+    "briefDescriptionTransfer": "",
+    "briefDescriptionDischarge": "",
+    "status": "",
+    "trackingDevice": false,
+    "deviceId": "",
+    "lastVisit": ""
+  }

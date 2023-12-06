@@ -1,0 +1,233 @@
+[
+    {
+        "form_fieldId":"",
+        "page_label": "Abnormal Involuntary Movement Scale",
+        "downl_oade": "Download",
+        "pr_int": "Print",
+        "fields": [
+            {
+                "fieldId": "veteran_name",
+                "fieldLabel": "Veteran's Name:",
+                "mandatory": true,
+                "fieldPlaceholder": "Enter name",
+                "fieldType": "text",
+                "fieldSize": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "fieldId": "veteran_date",
+                "label": "Date:",
+                "mandatory": true,
+                "fieldPlaceholder": "MM/DD/YYYY",
+                "fieldType": "date", 
+                "fieldSize": "Medium",
+                "fieldValue": null
+            },
+            {
+                "fieldId": "veteran_dob",
+                "label": "Veteran's DOB:",
+                "mandatory": true,
+                "fieldPlaceholder": "MM/DD/YYYY",
+                "fieldType": "date", 
+                "fieldSize": "Medium",
+                "fieldValue": null
+            },
+            {
+                "fieldId": "veteran_ssn",
+                "label": "Last four digits of SSN:",
+                "mandatory": true,
+                "fieldPlaceholder": "",
+                "fieldType": "text",
+                "fieldSize": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "fieldId": "veteran_staff",
+                "label": "Staff:",
+                "mandatory": true,
+                "fieldPlaceholder": "",
+                "fieldType": "text", 
+                "fieldSize": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "fieldId": "veteran_location",
+                "label": "Location:",
+                "mandatory": true,
+                "fieldPlaceholder": "",
+                "fieldType": "text", 
+                "fieldSize": "Medium",
+                "fieldValue": ""
+            },
+            {            
+                "label": "Complete Examination Procedure before making ratings. MOVEMENT RATINGS: Rate highest severity observed. Rate movements that occur upon activation one LESS than those observed spontaneously",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "fieldSize": "Large"           
+            },
+            {                            
+                "mandatory": true,       
+                "fieldType": "empty", 
+                "fieldSize": "Large"           
+            },
+            {            
+                "label": "1. Facial and Oral Movements Muscles of facial expression, e.g., movements of forehead, eyebrows, periorbital area, cheeks. Include frowning, blinking, grimacing of upper face.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "fieldSize": "Large"           
+            },
+            {
+                "fieldId": "veteran_facial_muscles_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "many",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },    
+            {
+                "fieldId": "veteran_lips_perioral_movement",
+                "label": "2. Facial and Oral Movements Lips and perioral area, e.g., puckering, pouting, smacking.",
+                "fieldValue": "Part-Time",
+                "mandatory": true,
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None"
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal"
+                    },
+                    {
+                        "optionLabel": "2. Mild"
+                    },
+                    {
+                        "optionLabel": "3. Moderate"
+                    },
+                    {
+                        "optionLabel": "4. Severe"
+                    },
+                    {
+                        "optionLabel": "5. Severe1"
+                    }
+                ],
+                "fieldType": "select",
+                "fieldSize": "Large"
+                        
+            },
+            {            
+                "label": "3. Facial and Oral Movements Jaw, e.g., biting, clenching, chewing, mouth opening, lateral movement.",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "fieldSize": "Large"           
+            },
+            {
+                "fieldId": "veteran_jaw_movement",
+                "fieldType": "multiselect",     
+                "fieldSelect": "one",                       
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            },
+            {            
+                "label": "4. Facial and Oral Movements Tongue. Rate only increase in movement both in and out of mouth, not inability to sustain movement.",
+                "mandatory": true,       
+                "fieldType": "listbox", 
+                "fieldId": "veteran_tongue_movement", 
+                "fieldSize": "Large",
+                "fieldValue": [""],
+                "fieldOptions":[
+                    "0. None",
+                    "1. Minimal, may be extreme normal",
+                    "2. Mild",
+                    "3. Moderate",
+                    "4. Severe"                    
+                ]           
+            },
+            {            
+                "label": "5.  Extremity Movements Upper (arms, wrists, hands, fingers). Include movements that are choreic (rapfieldId, objectively purposeless, Irregular, spontaneous) or athetofieldId (slow, irregular, complex, serpentine). Do not include tremor (repetitive, regular, rhythmic movements).",
+                "mandatory": true,       
+                "fieldType": "label", 
+                "fieldSize": "Large"           
+            },
+            {
+                "fieldId": "veteran_upper_movement",
+                "fieldType": "radio",                                 
+                "fieldOptions": [
+                    {
+                        "optionLabel": "0. None",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "1. Minimal, may be extreme normal",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "2. Mild",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "3. Moderate",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    },
+                    {
+                        "optionLabel": "4. Severe",
+                        "optionValue": false,
+                        "optionSize": "Large" 
+                    }
+                ] 
+            }
+            
+        ]
+    }
+]

@@ -1,0 +1,126 @@
+{
+  "id": "",
+  "patientId": "",
+  "enteredDate": null,
+  "bodyTemperature": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "btQualifiers": {
+      "location": ""
+    }
+  },
+  "pulseRate": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "prQualifiers": {
+      "location": "",
+      "method": "",
+      "position": "",
+      "site": ""
+    }
+  },
+  "heartRate": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "hrQualifiers": {
+      "location": ""
+    }
+  },
+  "respirationRate": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "rrQualifiers": {
+      "method": "",
+      "position": ""
+    }
+  },
+  "bloodPressure": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "systolicValue": "",
+    "diastolicValue": "",
+    "unit": "",
+    "bpQualifiers": {
+      "cuffSize": "",
+      "method": "",
+      "position": ""
+    }
+  },
+  "bloodOxygen": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "boQualifiers": {
+      "method": ""
+    }
+  },
+  "weight": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "wqualifiers": {
+      "method": "",
+      "quality": ""
+    }
+  },
+  "height": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "hqualifiers": {
+      "quality": ""
+    }
+  },
+  "bloodGlucoseLevel": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "bgQualifiers": {
+      "location": "",
+      "position": "",
+      "quality": ""
+    }
+  },
+  "circumferenceOrGirth": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "cgQualifiers": {
+      "site": "",
+      "location": ""
+    }
+  },
+  "pain": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": ""
+  },
+  "pulseOximetry": {
+    "measurementDT": "",
+    "vitalMeasurementName": "",
+    "value": "",
+    "unit": "",
+    "poQualifiers": {
+      "supplimentalOxygen": "",
+      "flowRate": "",
+      "o2concentration": "",
+      "method": ""
+    }
+  },
+  "lastVisit": "",
+  "comments": ""
+}

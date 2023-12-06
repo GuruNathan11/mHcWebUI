@@ -1,0 +1,21 @@
+<svg width="21" height="165" viewBox="0 0 21 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1000003812">
+<line id="Line 674" opacity="0.5" x1="10.5637" y1="164.611" x2="10.5637" y2="10.0255" stroke="#226DB2"/>
+<g id="Ellipse 1023" filter="url(#filter0_d_594_18110)">
+<circle cx="10.5382" cy="10.5519" r="2.62901" fill="#226DB2"/>
+<circle cx="10.5382" cy="10.5519" r="3.62901" stroke="white" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_594_18110" x="0.90918" y="0.922852" width="19.2581" height="19.2578" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="5" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_594_18110"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.6875 0 0 0 0 0.6875 0 0 0 0 0.6875 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_594_18110"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_594_18110" result="shape"/>
+</filter>
+</defs>
+</svg>

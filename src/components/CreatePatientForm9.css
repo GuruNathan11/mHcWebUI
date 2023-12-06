@@ -1,0 +1,81 @@
+.component-517-child {
+  position: absolute;
+  height: 92.05%;
+  width: 0.41%;
+  top: 3.18%;
+  right: 91.06%;
+  bottom: 4.77%;
+  left: 8.54%;
+  background-color: var(--color-gainsboro-700);
+}
+.basic-details12,
+.contact13,
+.employer10,
+.guardian10 {
+  position: absolute;
+  height: 9.09%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 90.91%;
+  left: 0;
+}
+.contact13,
+.employer10,
+.guardian10 {
+  top: 11.14%;
+  bottom: 79.77%;
+  cursor: pointer;
+}
+.employer10,
+.guardian10 {
+  top: 22.73%;
+  bottom: 68.18%;
+}
+.guardian10 {
+  top: 34.09%;
+  bottom: 56.82%;
+}
+.family-health-history10,
+.insurance9,
+.misc10,
+.social-history10,
+.stats10 {
+  position: absolute;
+  height: 9.09%;
+  width: 100%;
+  top: 45.45%;
+  right: 0;
+  bottom: 45.45%;
+  left: 0;
+  cursor: pointer;
+}
+.family-health-history10,
+.insurance9,
+.social-history10,
+.stats10 {
+  top: 56.82%;
+  bottom: 34.09%;
+}
+.family-health-history10,
+.insurance9,
+.social-history10 {
+  top: 68.18%;
+  bottom: 22.73%;
+}
+.family-health-history10,
+.social-history10 {
+  top: 79.55%;
+  bottom: 11.36%;
+}
+.social-history10 {
+  top: 90.91%;
+  bottom: 0;
+}
+.component-517 {
+  position: absolute;
+  top: 84px;
+  left: 77px;
+  width: 246px;
+  height: 440px;
+}

@@ -1,0 +1,70 @@
+.component-502-child {
+  position: absolute;
+  height: 101.92%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -1.92%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.father,
+.no {
+  position: absolute;
+  top: 28.85%;
+  left: 1.09%;
+}
+.no {
+  left: 20.39%;
+}
+.div37,
+.div38,
+.div39,
+.no1,
+.yes {
+  position: absolute;
+  top: 28.85%;
+  left: 31.3%;
+}
+.div37,
+.div38,
+.div39,
+.no1 {
+  left: 44.27%;
+}
+.div38,
+.div39,
+.no1 {
+  left: 53.33%;
+}
+.div38,
+.div39 {
+  left: 61.4%;
+}
+.div39 {
+  left: 74.37%;
+}
+.component-502,
+.div40,
+.div41 {
+  position: absolute;
+  top: 28.85%;
+  left: 83.53%;
+}
+.component-502,
+.div41 {
+  left: 93.57%;
+}
+.component-502 {
+  width: calc(100% - 363px);
+  top: 195px;
+  right: 20px;
+  left: 343px;
+  height: 52px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

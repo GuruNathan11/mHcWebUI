@@ -1,0 +1,29 @@
+﻿import { all, takeLatest } from "redux-saga/effects";
+import { SAVE_LOGIN_STARTED,CHECK_SECURITY_STARTED,SAVE_FORGOTPASSWORD_STARTED,VERIFY_LOGIN_STARTED,VERIFY_OTP_STARTED,
+  SAVE_RESETPASSWORD_STARTED } from "../actions/Login";
+import { GETALL_ORGANIZATION_STARTED,UPDATE_ORGANIZATION_STARTED,CREATE_ORGANIZATION_STARTED,GETBYID_ORGANIZATION_STARTED } from "../actions/Organization";
+import { saveLogin,loginSecurity,forgetPassword,verifyLogin,verifyOtp,saveResetPassword } from "./Login";
+import { getAllOrganization, updateOrganization,createOrganization,getByIdOrganization} from "./Organization";
+import {CREATE_PATIENT_STARTED,GETALL_PATIENT_STARTED,GETBYID_PATIENT_STARTED,GETBYINPUT_PATIENT_STARTED,DISCHARGEBYID_PATIENT_STARTED, UPDATE_PATIENT_STARTED,} from "../actions/Patient";
+import {createPatient,getAllPatient,getByIdPatient,getPatientByInput,dischargePatientById,updatePatient} from "./Patient";
+
+export default function* rootSaga() {
+  yield all([
+    takeLatest(GETALL_ORGANIZATION_STARTED, getAllOrganization),
+    takeLatest(UPDATE_ORGANIZATION_STARTED, updateOrganization),
+    takeLatest(CREATE_ORGANIZATION_STARTED, createOrganization),
+    takeLatest(GETBYID_ORGANIZATION_STARTED, getByIdOrganization),
+    takeLatest(SAVE_LOGIN_STARTED, saveLogin),
+    takeLatest(VERIFY_LOGIN_STARTED, verifyLogin),   
+    takeLatest(CHECK_SECURITY_STARTED, loginSecurity), 
+    takeLatest(SAVE_FORGOTPASSWORD_STARTED, forgetPassword),
+    takeLatest(VERIFY_OTP_STARTED, verifyOtp),
+    takeLatest(SAVE_RESETPASSWORD_STARTED,saveResetPassword),
+    takeLatest(CREATE_PATIENT_STARTED, createPatient),
+    takeLatest(GETALL_PATIENT_STARTED, getAllPatient),
+    takeLatest(GETBYID_PATIENT_STARTED, getByIdPatient),
+    takeLatest(GETBYINPUT_PATIENT_STARTED, getPatientByInput),
+    takeLatest(DISCHARGEBYID_PATIENT_STARTED, dischargePatientById),
+    takeLatest(UPDATE_PATIENT_STARTED, updatePatient)
+  ]);
+}

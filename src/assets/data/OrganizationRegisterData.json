@@ -1,0 +1,50 @@
+{
+  "id": "",
+  "organizationdetails": [
+    {
+      "name": "",
+      "type": "",
+      "tin": "",
+      "npi": ""
+    }
+  ],
+  "contact": [
+    {
+      "addressLine1": "",
+      "addressLine2": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": 0
+    }
+  ],
+  "email": "",
+  "mobileNumber": "",
+  "websiteUrl": "",
+  "shift": {
+    "duration": "",
+    "startTime": ""
+  },
+  "pointofcontact": [
+    {
+      "name": "",
+      "email": "",
+      "phoneNumber": ""
+    }
+  ],
+  "hippaprivacyofficer": [
+    {
+      "name": "",
+      "email": "",
+      "mobile": ""
+    }
+  ],
+  "hippassecurityofficer": [
+    {
+      "name": "",
+      "email": "",
+      "mobile": ""
+    }
+  ],
+  "userType": ""
+}

@@ -1,0 +1,114 @@
+.basic-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 800px;
+  height: 604px;
+}
+.group-child32 {
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.check-box26,
+.group-child32 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.check-boxgary26 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.declined-to-specify {
+  position: relative;
+  letter-spacing: -0.1px;
+}
+.check-boxgary-parent2,
+.check-boxgary-parent3 {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  cursor: pointer;
+}
+.check-boxgary-parent3 {
+  left: 380px;
+}
+.gender,
+.sexual-orientation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.1px;
+  font-weight: 500;
+}
+.sexual-orientation {
+  left: 380px;
+}
+.basic-item,
+.formsdropdowngender-parent {
+  position: absolute;
+  top: 446px;
+  left: 31px;
+  width: 739px;
+  height: 115px;
+}
+.basic-item {
+  top: 60.5px;
+  left: 0.5px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 800px;
+  height: 1px;
+}
+.expand-more-24px-icon4 {
+  position: relative;
+  width: 23px;
+  height: 24px;
+  display: none;
+}
+.basic-details1 {
+  position: relative;
+  font-weight: 600;
+}
+.expand-more-24px-parent2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.basic,
+.contact3 {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  width: 104px;
+  height: 24px;
+  font-size: var(--font-size-base);
+}
+.basic {
+  top: 96px;
+  left: 401px;
+  width: 800px;
+  height: 604px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

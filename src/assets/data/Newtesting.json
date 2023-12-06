@@ -1,0 +1,117 @@
+{
+    "id":"",
+    "content":[
+        {
+            "heading":"Heading1",
+            "institutionName":"Behaviora Center of Michigan (BCOM)",
+            "policyTitle":"Belongings Room Key",
+            "policyNumber":"EOC-1.18A",
+            "effectiveDate":"October 1 2005",
+            "department":"Environment Of Care",
+            "subHeading": [
+                {
+                  "indexContent": "Purpose",
+                  "content": "To ensure the security of the belongings",
+                  "indexContent1": [
+                    {
+                      "indexContent": "Purpose1",
+                      "content": "To ensure the security of the belongings1"
+                    },
+                    {
+                      "indexContent": "Purpose2",
+                      "content": "To ensure the security of the belongings2"
+                    },
+                    {
+                      "indexContent": "Purpose3",
+                      "content": "To ensure the security of the belongings3"
+                    }
+                  ]
+                }
+              ]
+        },
+        {
+            "heading":"Heading2",
+            "institutionName":"Behaviora Center of Michigan (BCOM)",
+            "policyTitle":"Belongings Room Key",
+            "policyNumber":"EOC-1.19A",
+            "effectiveDate":"October 12 2005",
+            "department":"Admission Clerk",
+            "subHeading": [
+                {
+                  "indexContent": "Purpose",
+                  "content": "To ensure the security of the belongings3A",
+                  "indexContent1": [
+                    {
+                      "indexContent": "Purpose4",
+                      "content": "To ensure the security of the belongings4"
+                    },
+                    {
+                      "indexContent": "Purpose5",
+                      "content": "To ensure the security of the belongings5"
+                    },
+                    {
+                      "indexContent": "Purpose6",
+                      "content": "To ensure the security of the belongings6"
+                    }
+                  ]
+                }
+              ]
+        },
+        {
+            "heading":"Heading3",
+            "institutionName":"Behaviora Center of Michigan (BCOM)",
+            "policyTitle":"Belongings Room Key",
+            "policyNumber":"EOC-1.5A",
+            "effectiveDate":"August 18 2004",
+            "department":"Assistant Manager",
+            "subHeading": [
+                {
+                  "indexContent": "Purpose",
+                  "content": "To ensure the security of the belongings6A",
+                  "indexContent1": [
+                    {
+                      "indexContent": "Purpose7",
+                      "content": "To ensure the security of the belongings7"
+                    },
+                    {
+                      "indexContent": "Purpose8",
+                      "content": "To ensure the security of the belongings8"
+                    },
+                    {
+                      "indexContent": "Purpose9",
+                      "content": "To ensure the security of the belongings9"
+                    }
+                  ]
+                }
+              ]
+        },
+        {
+          "heading":"Heading4",
+          "institutionName":"Behaviora Center of Michigan (BCOM)",
+          "policyTitle":"Belongings Room Key",
+          "policyNumber":"EOC-1.4A",
+          "effectiveDate":"May 17 1997",
+          "department":"Manager",
+          "subHeading": [
+              {
+                "indexContent": "Purpose",
+                "content": "To ensure the security of the belongings9A",
+                "indexContent1": [
+                  {
+                    "indexContent": "Purpose10",
+                    "content": "To ensure the security of the belongings10"
+                  },
+                  {
+                    "indexContent": "Purpose11",
+                    "content": "To ensure the security of the belongings11"
+                  },
+                  {
+                    "indexContent": "Purpose12",
+                    "content": "To ensure the security of the belongings12"
+                  }
+                ]
+              }
+            ]
+      }
+    ]
+}

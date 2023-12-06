@@ -1,0 +1,86 @@
+{
+  "resource": [
+    {
+      "fullUrl": "",
+      "resourceType": ""
+    }
+  ],
+  "name": [
+    {
+      "use": "",
+      "given": "",
+      "family": ""
+    }
+  ],
+  "gender": "",
+  "email": "",
+  "role": "",
+  "username": "",
+  "password": "",
+  "organization": "",
+  "userType": "",
+  "startDate": null,
+  "speciality": [
+    ""
+  ],
+  "dateofBirth": null,
+  "_birthdate": [
+    {
+      "extension": [
+        {
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "ssn": "",
+  "npi": "",
+  "contact": [
+    {
+      "address": [
+        {
+          "addressLine1": "",
+          "addressLine2": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "zip": ""
+        }
+      ],
+      "homePhone": "",
+      "workPhone": "",
+      "mobilePhone": "",
+      "contactEmail": ""
+    }
+  ],
+  "employeeDetails": [
+    {
+      "employeeId": "",
+      "jobTitle": "",
+      "department": "",
+      "workSchedule": "",
+      "salary": "",
+      "startDate": null,
+      "endDate": null,
+      "credentials": "",
+      "qualification": "",
+      "skills": []
+    }
+  ],
+  "emergency": [
+    {
+      "relationShip": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    }
+  ],
+  "backgroundCheck": [],
+  "immunizationStatus": "",
+  "hipaaTraining": "",
+  "privacyAcknowledgement": "",
+  "signature": "",
+  "active": "",
+  "terminationDate": null,
+  "terminationReason": "",
+  "id": ""
+}

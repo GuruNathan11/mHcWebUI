@@ -1,0 +1,354 @@
+.side-nav-child {
+  position: absolute;
+  height: 1.42%;
+  width: 39.63%;
+  top: 1.22%;
+  right: 55.69%;
+  bottom: 97.36%;
+  left: 4.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.create-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.admin {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 100px;
+  flex-shrink: 0;
+}
+.create-parent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-deepskyblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.side-nav-inner {
+  position: absolute;
+  height: 2.44%;
+  top: 5.49%;
+  bottom: 92.07%;
+  left: 11px;
+  width: 154px;
+}
+.dashboardicon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  display: none;
+}
+.react-iconsriridashboardline2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.admin1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 122px;
+  flex-shrink: 0;
+}
+.dashboardicon-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  opacity: 0.9;
+}
+.invoice-icon,
+.react-iconsio5ioreceipt {
+  position: relative;
+  width: 18px;
+  height: 20px;
+  display: none;
+}
+.react-iconsio5ioreceipt {
+  width: 20px;
+}
+.admin2 {
+  position: relative;
+  font-weight: 500;
+}
+.invoice-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  opacity: 0.9;
+}
+.chevron-right-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  opacity: 0.87;
+}
+.frame-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frame-item {
+  position: relative;
+  width: 20px;
+  height: 22.24px;
+  display: none;
+}
+.admin5 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 179px;
+  flex-shrink: 0;
+}
+.file-document-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  opacity: 0.9;
+}
+.admin6,
+.pocket-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.pocket-icon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.admin6 {
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+}
+.resources-parent {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  opacity: 0.9;
+}
+.group-icon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.admin7 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 178px;
+  flex-shrink: 0;
+}
+.group-parent {
+  width: 201px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  opacity: 0.9;
+}
+.count-child,
+.div2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.count-child {
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-gainsboro-300);
+}
+.div2 {
+  font-weight: 600;
+  display: inline-block;
+}
+.count {
+  position: relative;
+  width: 29px;
+  height: 18px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inter);
+}
+.frame-parent2 {
+  width: 274px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.companies-icon,
+.react-iconsioiomdtime {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  display: none;
+}
+.companies-icon {
+  width: 18px;
+  height: 19px;
+}
+.admin9 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  flex-shrink: 0;
+}
+.arrow-drop-down-24px-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  opacity: 0.6;
+}
+.admin10 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  width: 150px;
+  flex-shrink: 0;
+}
+.arrow-drop-down-24px-parent,
+.meetings-parent {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.arrow-drop-down-24px-parent {
+  gap: var(--gap-lgi);
+  color: var(--color-lightsteelblue-100);
+}
+.meetings-parent {
+  gap: var(--gap-3xl);
+  opacity: 0.9;
+}
+.frame-group {
+  position: absolute;
+  width: 73%;
+  top: 144px;
+  right: 19.83%;
+  left: 7.17%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--default-2);
+  font-family: var(--font-poppins);
+}
+.menu-icon1 {
+  position: absolute;
+  height: 0.95%;
+  width: 10%;
+  top: 1.49%;
+  right: 7%;
+  bottom: 97.56%;
+  left: 83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.menu-icon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.frame-inner {
+  position: relative;
+  width: 160px;
+  height: 18.64px;
+}
+.menu-parent {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.admin-configuration,
+.org-details,
+.patients1,
+.staff-details2 {
+  position: absolute;
+  top: 373px;
+  left: 8px;
+  border-radius: var(--br-9xs);
+  width: 284px;
+  height: 48px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.org-details,
+.patients1,
+.staff-details2 {
+  top: 179px;
+}
+.org-details,
+.staff-details2 {
+  top: 228px;
+}
+.org-details {
+  top: 276px;
+}
+.side-nav-item {
+  position: absolute;
+  top: 0;
+  left: 226px;
+  width: 74px;
+  height: 71px;
+}
+.side-nav1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 300px;
+  height: 1476px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

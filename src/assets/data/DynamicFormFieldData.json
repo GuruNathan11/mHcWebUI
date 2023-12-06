@@ -1,0 +1,66 @@
+[
+    {
+        "page_label": "Job Application Form",
+        "fields": [
+            {
+                "id": "english_name",
+                "label": "Name",
+                "mandatory": true,
+                "placeholder": "Enter name",
+                "fieldType": "text",
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "id": "email",
+                "label": "Email",
+                "mandatory": true,
+                "placeholder": "Enter email",
+                "fieldType": "text", 
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "id": "employment",
+                "label": "Employment desired",
+                "fieldValue": "Part-Time",
+                "mandatory": true,
+                "fieldOptions": [
+                    {
+                        "optionLabel": "Full-Time"
+                    },
+                    {
+                        "optionLabel": "Part-Time"
+                    }
+                ],
+                "fieldType": "select",
+                "size": "Medium"
+                        
+            },
+            {
+                "id": "contact",
+                "label": "Contact No.",
+                "mandatory": true,
+                "placeholder": "Enter contact no.",
+                "fieldType": "text",
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "id": "driving_license",
+                "label": "I confirm to have driving license.",
+                "fieldType": "checkbox",
+                "size": "Large",
+                "fieldValue": "checked"
+            },
+            {
+                "id": "identity",
+                "label": "Driving License No.",
+                "mandatory": true,
+                "placeholder": "e.g. 012 345 678",
+                "fieldType": "text",
+                "size": "Large"
+            }
+        ]
+    }
+]

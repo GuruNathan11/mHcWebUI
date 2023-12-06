@@ -1,0 +1,128 @@
+.staff-grid-child16 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.otions-icon22 {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  opacity: 0.8;
+}
+.group-child25 {
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.check-box24,
+.group-child25 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.check-boxblue-icon3,
+.check-boxgary24 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.check-boxblue-icon3 {
+  display: none;
+}
+.check-boxgary-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.mh480120 {
+  position: relative;
+}
+.id22 {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.date-of-birth22,
+.department22,
+.jobtitle22,
+.ssn22,
+.start-date22 {
+  position: absolute;
+  width: 7.04%;
+  top: 28.85%;
+  left: 31.72%;
+  display: inline-block;
+}
+.department22,
+.jobtitle22,
+.ssn22,
+.start-date22 {
+  width: 1.36%;
+  left: 47.41%;
+}
+.department22,
+.jobtitle22,
+.start-date22 {
+  left: 59.63%;
+}
+.department22,
+.start-date22 {
+  left: 72.69%;
+}
+.start-date22 {
+  width: 6.28%;
+  left: 85.75%;
+}
+.name-child18 {
+  position: relative;
+  border-radius: var(--br-41xl);
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.name22 {
+  position: absolute;
+  height: 46.15%;
+  width: 11.37%;
+  top: 25%;
+  right: 75.23%;
+  bottom: 28.85%;
+  left: 13.4%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.staff-grid21 {
+  position: relative;
+  width: 1179px;
+  height: 52px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

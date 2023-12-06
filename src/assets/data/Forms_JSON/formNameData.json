@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Abnormal Involuntary Movement Scale",
+        "shortName":"AIMS",   
+        "urlName": "/MettlerAIMS"
+    },
+    {
+        "name":"The Alcohol, Smoking and Substance Involvement Screening Test",
+        "shortName":"ASSIST"        
+    },
+    {
+        "name":"Automatic Thoughts Questionnaire",
+        "shortName":"ATQ"
+    },
+    {
+        "name":"Alcohol Use Disorders Identification Test Consumption",
+        "shortName":"AUDC"
+    },
+    {
+        "name":"Alcohol Use Disorders Identification Test",
+        "shortName":"AUDIT"
+    },
+    {
+        "name":"Alcohol Use Inventory (Revised)",
+        "shortName":"AUIR"
+    }
+]

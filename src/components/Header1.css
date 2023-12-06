@@ -1,0 +1,140 @@
+.notifications-icon5 {
+  position: relative;
+  width: 17px;
+  height: 20px;
+}
+.div90 {
+  position: relative;
+  letter-spacing: -0.29px;
+  font-weight: 500;
+  display: inline-block;
+  width: 7px;
+}
+.notifications3,
+.number6 {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.number6 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-crimson);
+  border: 1px solid var(--color-white);
+  width: 16px;
+  height: 16px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0;
+  align-items: center;
+  margin-left: -8px;
+}
+.notifications3 {
+  width: 25px;
+  height: 24px;
+  flex-direction: row;
+  padding: var(--padding-9xs) 0 0;
+  align-items: flex-start;
+}
+.vector-icon77 {
+  position: relative;
+  width: 20px;
+  height: 16px;
+}
+.message3,
+.number7 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.number7 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-crimson);
+  border: 1px solid var(--color-white);
+  width: 16px;
+  height: 16px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0;
+  justify-content: flex-start;
+  margin-left: -4px;
+}
+.message3 {
+  width: 30px;
+  height: 19px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-10xs);
+  justify-content: flex-end;
+}
+.profile-icon3,
+.settings-icon6 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.profile-icon3 {
+  width: 45px;
+  height: 32px;
+  object-fit: cover;
+}
+.profile3 {
+  position: absolute;
+  top: 14px;
+  right: 25px;
+  width: 208px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.logo-icon2 {
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 130px);
+  width: 180px;
+  height: 20.97px;
+}
+.chevron-left-icon4,
+.chevron-left-icon5 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevron-left-icon5 {
+  display: none;
+}
+.patient-management4 {
+  position: relative;
+  font-weight: 600;
+}
+.chevron-left-parent {
+  position: absolute;
+  top: 18px;
+  left: 21px;
+  width: 167px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+}
+.create-patient {
+  position: absolute;
+  height: 6.67%;
+  width: 95.31%;
+  top: 0;
+  right: 0;
+  bottom: 93.33%;
+  left: 4.69%;
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: 0 1px 0#e7e9ec;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

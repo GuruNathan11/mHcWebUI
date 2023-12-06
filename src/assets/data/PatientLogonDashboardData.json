@@ -1,0 +1,181 @@
+[
+   { 
+    "id":"1000",
+   "name":"Ward A",
+   "patientList":[{ 
+    "id": "1000-0",
+    "patientId":"#MH4801",  
+    "patientName": "Koray Okumus",
+    "admitDate": "May 14,2023",
+    "email": "koray.o@gmail.com",
+    "phone": "+1 673 983 9812", 
+    "insurance": "max bupa", 
+    "status": "--",
+    "editData": ":"
+  },{ 
+    "id": "1000-1",
+    "patientId":"#MH4802",  
+    "patientName": "Koray Okumus",
+    "admitDate": "May 14,2023",
+    "email": "koray.o@gmail.com",
+    "phone": "+1 673 983 9812", 
+    "insurance": "max bupa", 
+    "status": "--",
+    "editData": ":"
+  },{ 
+    "id": "1000-2",
+    "patientId":"#MH4803",  
+    "patientName": "Koray Okumus",
+    "admitDate": "May 14,2023",
+    "email": "koray.o@gmail.com",
+    "phone": "+1 673 983 9812", 
+    "insurance": "max bupa", 
+    "status": "--",
+    "editData": ":"
+  },{ 
+    "id": "1000-3",
+    "patientId":"#MH4804",  
+    "patientName": "Koray Okumus",
+    "admitDate": "May 14,2023",
+    "email": "koray.o@gmail.com",
+    "phone": "+1 673 983 9812", 
+    "insurance": "max bupa", 
+    "status": "--",
+    "editData": ":"
+  }]},
+  { 
+    "id": "1001",
+   "name":"Ward B",
+   "patientList":[{ 
+    "id": "1001-0",
+    "patientId":"#MH4805",  
+    "patientName": "Koray Okumus",
+    "admitDate": "May 14,2023",
+    "email": "koray.o@gmail.com",
+    "phone": "+1 673 983 9812", 
+    "insurance": "max bupa", 
+    "status": "--",
+    "editData": ":"
+  },{ 
+    "id": "1001-1",
+    "patientId":"#MH4806",  
+    "patientName": "Koray Okumus",
+    "admitDate": "May 14,2023",
+    "email": "koray.o@gmail.com",
+    "phone": "+1 673 983 9812", 
+    "insurance": "max bupa", 
+    "status": "--",
+    "editData": ":"
+  },{ 
+    "id": "1001-2",
+    "patientId":"#MH4807",  
+    "patientName": "Koray Okumus",
+    "admitDate": "May 14,2023",
+    "email": "koray.o@gmail.com",
+    "phone": "+1 673 983 9812", 
+    "insurance": "max bupa", 
+    "status": "--",
+    "editData": ":"
+  },
+  { 
+    "id": "1001-3",
+    "patientId":"#MH4808",  
+    "patientName": "Koray Okumus",
+    "admitDate": "May 14,2023",
+    "email": "koray.o@gmail.com",
+    "phone": "+1 673 983 9812", 
+    "insurance": "max bupa", 
+    "status": "--",
+    "editData": ":"
+  }]},
+  { 
+    "id": "1002",
+    "name":"Ward C",
+    "patientList":[{ 
+     "id": "1002-0",
+     "patientId":"#MH4809",  
+     "patientName": "Koray Okumus",
+     "admitDate": "May 14,2023",
+     "email": "koray.o@gmail.com",
+     "phone": "+1 673 983 9812", 
+     "insurance": "max bupa", 
+     "status": "--",
+     "editData": ":"
+   },{ 
+    "id": "1002-1",
+     "patientId":"#MH4810",  
+     "patientName": "Koray Okumus",
+     "admitDate": "May 14,2023",
+     "email": "koray.o@gmail.com",
+     "phone": "+1 673 983 9812", 
+     "insurance": "max bupa", 
+     "status": "--",
+     "editData": ":"
+   },{ 
+    "id": "1002-2",
+     "patientId":"#MH4811",  
+     "patientName": "Koray Okumus",
+     "admitDate": "May 14,2023",
+     "email": "koray.o@gmail.com",
+     "phone": "+1 673 983 9812", 
+     "insurance": "max bupa", 
+     "status": "--",
+     "editData": ":"
+   },
+   { 
+     "id": "1002-3",
+     "patientId":"#MH4812",  
+     "patientName": "Koray Okumus",
+     "admitDate": "May 14,2023",
+     "email": "koray.o@gmail.com",
+     "phone": "+1 673 983 9812", 
+     "insurance": "max bupa", 
+     "status": "--",
+     "editData": ":"
+   }]},
+   { 
+    "id": "1003",
+    "name":"Ward D",
+    "patientList":[{ 
+     "id": "1003-0",
+     "patientId":"#MH4813",  
+     "patientName": "Koray Okumus",
+     "admitDate": "May 14,2023",
+     "email": "koray.o@gmail.com",
+     "phone": "+1 673 983 9812", 
+     "insurance": "max bupa", 
+     "status": "--",
+     "editData": ":"
+   },{ 
+    "id": "1003-1",
+     "patientId":"#MH4814",  
+     "patientName": "Koray Okumus",
+     "admitDate": "May 14,2023",
+     "email": "koray.o@gmail.com",
+     "phone": "+1 673 983 9812", 
+     "insurance": "max bupa", 
+     "status": "--",
+     "editData": ":"
+   },{ 
+    "id": "1003-2",
+     "patientId":"#MH4815",  
+     "patientName": "Koray Okumus",
+     "admitDate": "May 14,2023",
+     "email": "koray.o@gmail.com",
+     "phone": "+1 673 983 9812", 
+     "insurance": "max bupa", 
+     "status": "--",
+     "editData": ":"
+   },
+   { 
+     "id": "1003-3",
+     "patientId":"#MH4816",  
+     "patientName": "Koray Okumus",
+     "admitDate": "May 14,2023",
+     "email": "koray.o@gmail.com",
+     "phone": "+1 673 983 9812", 
+     "insurance": "max bupa", 
+     "status": "--",
+     "editData": ":"
+   }]}
+]

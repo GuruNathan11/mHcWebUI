@@ -1,0 +1,35 @@
+.vector-icon1 {
+  position: absolute;
+  height: 85%;
+  width: 85%;
+  top: 6.67%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 6.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div3 {
+  position: absolute;
+  height: 43.33%;
+  width: 23.33%;
+  top: 26.67%;
+  left: 36.67%;
+  letter-spacing: 0.15px;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.arrow-circle-left {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: #304053;
+  font-family: var(--font-poppins);
+}

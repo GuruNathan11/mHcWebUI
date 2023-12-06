@@ -1,0 +1,460 @@
+.add-patient-insurance-child,
+.doctor-tools-and-medical-eleme3 {
+  position: absolute;
+  top: 0;
+  left: -324px;
+  width: 1092px;
+  height: 780px;
+  display: none;
+  mix-blend-mode: screen;
+}
+
+.add-patient-insurance-child {
+  top: 73px;
+  left: -195px;
+  background: radial-gradient(50% 50%at 50% 50%,
+      rgba(19, 60, 147, 0.53),
+      rgba(19, 60, 147, 0.58));
+  width: 768px;
+  mix-blend-mode: normal;
+}
+
+.add-patient-insurance-item {
+  position: absolute;
+  height: 100.11%;
+  width: 84.58%;
+  top: -0.11%;
+  right: 40%;
+  bottom: 0;
+  left: -24.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+
+.error-message3 {
+  position: absolute;
+  top: 319px;
+  left: 815px;
+  font-size: var(--font-size-2xs);
+  font-weight: 300;
+  color: var(--color-tomato);
+  display: none;
+}
+
+.delete6,
+.delete7 {
+  position: relative;
+  font-weight: 500;
+}
+
+.delete7 {
+  font-size: var(--font-size-base);
+  display: none;
+}
+
+.delete-parent1,
+.frame-parent17 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.delete-parent1 {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro-400);
+  display: flex;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  align-items: flex-start;
+}
+
+.frame-parent17 {
+  position: absolute;
+  top: 275px;
+  left: 723px;
+  display: none;
+  align-items: center;
+  color: var(--color-darkslategray-100);
+}
+
+.add-patient-insurance-inner {
+  position: absolute;
+  top: 201px;
+  left: -15px;
+  background-color: var(--color-silver-100);
+  width: 1222px;
+  height: 48px;
+  display: none;
+}
+
+.add-patient-insurance-child1 {
+  position: absolute;
+  top: 229px;
+  left: 5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-aliceblue);
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: multiply;
+}
+
+.instance-child1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.add-patient-insurance-inner1 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 59px;
+  cursor: pointer;
+}
+
+.cancel-container {
+  width: 291px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-xl);
+}
+
+.add-patient-insurance-inner2 {
+  position: absolute;
+  height: 3.55%;
+  width: calc(100% - 46px);
+  top: 99.53%;
+  right: -2px;
+  bottom: -0.09%;
+  left: 46px;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-79xl);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.add-patient-insurance-child2 {
+  position: absolute;
+  top: 82.5px;
+  left: 321.5px;
+  border-right: 1px solid gainsboro;
+  box-sizing: border-box;
+  width: 1px;
+  height: 93.8%;
+}
+
+.analytics2 {
+  position: absolute;
+  height: 1.19%;
+  top: 17.08%;
+  left: 624px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray-400);
+  display: inline-block;
+  width: 64px;
+}
+
+.add-patient-insurance-child3 {
+  position: absolute;
+  width: calc(100% - 472px);
+  top: 89px;
+  right: 77px;
+  left: 395px;
+  background-color: var(--color-white);
+  border: 1px solid gainsboro;
+  box-sizing: border-box;
+  height: 1257px;
+}
+
+.insuranceExpand-more-24px-icon {
+  position: relative;
+  width: 23px;
+  height: 24px;
+  display: none;
+}
+
+.primary-insurance-provider {
+  position: relative;
+  font-weight: 600;
+}
+
+.insuranceExpand-more-24px-group,
+.insuranceExpand-more-24px-parent {
+  position: absolute;
+  top: 183px;
+  left: 407px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.insuranceExpand-more-24px-group {
+  top: 1172px;
+}
+
+.destination-name-input15 {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+
+.name-input8 {
+  flex: 1;
+}
+
+.insuranceForm-fields9 {
+  top: 1054px;
+  gap: var(--gap-3xs);
+}
+
+.insuranceForm-fields10,
+.insuranceForm-fields11,
+.insuranceForm-fields9 {
+  position: absolute;
+  width: calc(100% - 499px);
+  right: 114px;
+  left: 407px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.insuranceForm-fields10 {
+  top: 653px;
+  gap: var(--gap-3xs);
+}
+
+.insuranceForm-fields11 {
+  top: 778px;
+}
+
+.selectoutlined {
+  align-self: stretch;
+  flex: 1;
+}
+
+.insuranceForm-fields12,
+.insuranceForm-fields13 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.insuranceForm-fields12 {
+  position: absolute;
+  width: calc(100% - 499px);
+  top: 398px;
+  right: 114px;
+  left: 407px;
+}
+
+.insuranceForm-fields13 {
+  top: 483px;
+}
+
+.insuranceForm-fields13,
+.insuranceForm-fields14,
+.insuranceForm-fields15 {
+  position: absolute;
+  width: calc(100% - 499px);
+  right: 114px;
+  left: 407px;
+}
+
+.insuranceForm-fields14 {
+  top: 568px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.insuranceForm-fields15 {
+  top: 868px;
+}
+
+.insuranceForm-fields15,
+.insuranceForm-fields16,
+.insuranceForm-fields17 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.insuranceForm-fields16 {
+  position: absolute;
+  width: calc(100% - 499px);
+  top: 1145px;
+  right: 114px;
+  left: 407px;
+}
+
+.insuranceForm-fields17 {
+  top: 960px;
+}
+
+.insuranceForm-fields17,
+.insuranceForm-fields18,
+.insuranceForm-fields19 {
+  position: absolute;
+  width: calc(100% - 499px);
+  right: 114px;
+  left: 407px;
+}
+
+.insuranceForm-fields18 {
+  top: 313px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.insuranceForm-fields19 {
+  top: 228px;
+}
+
+.add-patient-insurance-child4 {
+  position: absolute;
+  width: calc(100% - 473px);
+  top: 158.5px;
+  right: 77.5px;
+  left: 395.5px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+
+.insurance-provider {
+  position: absolute;
+  top: 113px;
+  left: 429px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+
+.union-icon3 {
+  position: relative;
+  width: 5px;
+  height: 40px;
+}
+
+.add-patient-insurance {
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1408px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.add-patient-insurance-additional-tab {
+  position: absolute;
+  left: 430px;
+  top: 165px;
+}
+
+.add-patient-insurance-additional-newTab {
+  position: absolute;
+  left: 419px;
+  top: 218px;
+  width: calc(100% - 522px);
+}
+
+.insuranceForm-field-s10 {
+  position: absolute;
+  width: calc(100% - 501px);
+  top: 690px;
+  right: 114px;
+  left: 409px;
+  flex-direction: row;
+}
+
+.fields100 {
+  flex: 1 1;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.insuranceForm-field-s10,
+.fields100 {
+  display: flex;
+  align-items: inherit;
+  justify-content: flex-end;
+  grid-gap: var(--gap-3xs);
+  gap: var(--gap-3xs);
+  color: var(--color-tomato);
+
+}
+
+.insuranceForm-field-s14 {
+  position: absolute;
+  width: calc(100% - 501px);
+  top: 568px;
+  right: 114px;
+  left: 409px;
+  flex-direction: row;
+
+}
+
+.insuranceForm-field-s14,
+.fields100 {
+  display: flex;
+  align-items: inherit;
+  justify-content: flex-end;
+  grid-gap: var(--gap-3xs);
+  gap: var(--gap-3xs);
+  color: var(--color-tomato);
+
+}
+
+.secondary-form-field-s71 {
+  position: absolute;
+  width: calc(100% - 3px);
+  top: 339px;
+  right: 114px;
+  left: 1px;
+  flex-direction: row;
+}
+
+.secondary-form-field-s710{
+  flex: 1 1;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.secondary-form-field-s71,
+.secondary-form-field-s710 {
+
+  display: flex;
+  align-items: inherit;
+  justify-content: flex-end;
+  grid-gap: var(--gap-3xs);
+  gap: var(--gap-3xs);
+  color: var(--color-tomato);
+}

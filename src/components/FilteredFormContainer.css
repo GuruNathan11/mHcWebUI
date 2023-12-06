@@ -1,0 +1,86 @@
+.basic1,
+.contact5,
+.employer1,
+.family,
+.guardian1,
+.insurance1,
+.misc1,
+.social,
+.stats1 {
+  position: absolute;
+  height: 9.5%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 90.5%;
+  left: 0;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.contact5,
+.employer1,
+.family,
+.guardian1,
+.insurance1,
+.misc1,
+.social,
+.stats1 {
+  top: 11.31%;
+  bottom: 79.19%;
+}
+.employer1,
+.family,
+.guardian1,
+.insurance1,
+.misc1,
+.social,
+.stats1 {
+  top: 22.62%;
+  bottom: 67.87%;
+}
+.family,
+.guardian1,
+.insurance1,
+.misc1,
+.social,
+.stats1 {
+  top: 33.94%;
+  bottom: 56.56%;
+}
+.family,
+.insurance1,
+.misc1,
+.social,
+.stats1 {
+  top: 45.25%;
+  bottom: 45.25%;
+}
+.family,
+.insurance1,
+.social,
+.stats1 {
+  top: 56.56%;
+  bottom: 33.94%;
+}
+.family,
+.insurance1,
+.social {
+  top: 67.87%;
+  bottom: 22.62%;
+}
+.family,
+.social {
+  top: 79.19%;
+  bottom: 11.31%;
+}
+.social {
+  top: 90.5%;
+  bottom: 0;
+}
+.component-515 {
+  position: absolute;
+  top: 106px;
+  left: 77px;
+  width: 225px;
+  height: 442px;
+}

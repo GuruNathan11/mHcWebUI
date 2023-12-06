@@ -1,0 +1,51 @@
+.rectangle2 {
+  position: absolute;
+  height: 63.49%;
+  width: 100%;
+  top: 36.51%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.final-size-width1,
+.parties1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.16px;
+  line-height: 18px;
+}
+.parties1 {
+  top: 53.97%;
+  left: 9px;
+  line-height: 16px;
+  color: var(--color-darkslategray-300);
+}
+.iconscalendar1 {
+  position: absolute;
+  top: calc(50% + 2.5px);
+  right: 11px;
+  width: 18px;
+  height: 18px;
+  display: none;
+}
+.react-iconsioiomdtime3 {
+  position: absolute;
+  top: 32.5px;
+  right: 9px;
+  width: 21px;
+  height: 21px;
+  opacity: 0.8;
+}
+.formdate1 {
+  position: relative;
+  width: 140px;
+  height: 63px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray-200);
+  font-family: var(--font-poppins);
+}

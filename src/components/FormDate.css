@@ -1,0 +1,50 @@
+.rectangle {
+  position: absolute;
+  height: 63.49%;
+  width: 100%;
+  top: 36.51%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.final-size-width,
+.parties {
+  position: absolute;
+  letter-spacing: -0.16px;
+}
+.final-size-width {
+  top: 0;
+  left: 2px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.parties {
+  height: 33.33%;
+  top: 50.79%;
+  left: 9px;
+  line-height: 16px;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-300);
+  display: flex;
+  align-items: center;
+  width: 260.9px;
+}
+.iconscalendar {
+  position: absolute;
+  top: calc(50% + 2.5px);
+  right: 11px;
+  width: 18px;
+  height: 18px;
+}
+.formdate {
+  position: relative;
+  width: 300px;
+  height: 63px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray-100);
+  font-family: var(--font-nunito-sans);
+}

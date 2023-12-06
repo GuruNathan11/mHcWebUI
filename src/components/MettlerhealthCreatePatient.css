@@ -1,0 +1,543 @@
+.mettlerhealth-create-patient-child {
+  position: absolute;
+  top: 0;
+  left: 61px;
+  background-color: var(--color-white);
+  width: 1219px;
+  height: 939px;
+}
+.doctor-tools-and-medical-eleme-icon {
+  position: absolute;
+  top: 0;
+  left: -324px;
+  width: 1092px;
+  height: 780px;
+  object-fit: cover;
+  display: none;
+  mix-blend-mode: screen;
+}
+.mettlerhealth-create-patient-item {
+  position: absolute;
+  top: 73px;
+  left: -195px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(19, 60, 147, 0.53),
+    rgba(19, 60, 147, 0.58)
+  );
+  width: 768px;
+  height: 780px;
+  display: none;
+  mix-blend-mode: normal;
+}
+.group-icon5 {
+  position: absolute;
+  top: -0.1%;
+  left: -24.58%;
+  width: 0;
+  height: 0;
+}
+.error-message2 {
+  position: absolute;
+  top: 319px;
+  left: 815px;
+  font-size: var(--font-size-2xs);
+  font-weight: 300;
+  display: none;
+}
+.instance-inner {
+  position: absolute;
+  height: 115.75%;
+  width: 93.75%;
+  top: 0;
+  right: 6.25%;
+  bottom: -15.75%;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+}
+.create-icon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.admin28 {
+  position: relative;
+  font-weight: 600;
+  display: none;
+  width: 100px;
+  flex-shrink: 0;
+}
+.create-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-deepskyblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frame-wrapper {
+  position: absolute;
+  top: 82px;
+  left: 11px;
+  width: 38px;
+  height: 36px;
+}
+.dashboardicon2 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  display: none;
+}
+.admin29 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 122px;
+  flex-shrink: 0;
+}
+.dashboardicon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  opacity: 0.9;
+}
+.file-document-icon10 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-child5 {
+  position: relative;
+  width: 20px;
+  height: 22.24px;
+  display: none;
+}
+.admin30 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 179px;
+  flex-shrink: 0;
+}
+.file-document-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  opacity: 0.9;
+}
+.react-iconsririuser2line2,
+.resources-icon2 {
+  position: relative;
+  width: 18px;
+  height: 20px;
+  display: none;
+}
+.react-iconsririuser2line2 {
+  width: 20px;
+}
+.admin31 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  flex-shrink: 0;
+}
+.group-icon6 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.admin32 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 178px;
+  flex-shrink: 0;
+}
+.group-parent2 {
+  width: 201px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  opacity: 0.9;
+}
+.count-inner,
+.div9 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.count-inner {
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-smi);
+  background-color: #f0f2f9;
+}
+.div9 {
+  font-weight: 600;
+  display: inline-block;
+}
+.count2 {
+  position: relative;
+  width: 29px;
+  height: 18px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: #484972;
+  font-family: var(--font-inter);
+}
+.frame-parent12 {
+  width: 274px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.react-iconsioiomdtime4 {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  display: none;
+}
+.admin33 {
+  position: relative;
+  font-weight: 500;
+}
+.companies-icon2 {
+  position: relative;
+  width: 18px;
+  height: 19px;
+  display: none;
+}
+.admin34 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  flex-shrink: 0;
+}
+.arrow-drop-down-24px-icon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  opacity: 0.6;
+}
+.admin35 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  width: 150px;
+  flex-shrink: 0;
+}
+.arrow-drop-down-24px-container {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  color: var(--color-lightsteelblue-100);
+}
+.react-iconsririsettings4line {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.file-document-icon11 {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.invoice-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  opacity: 0.9;
+}
+.chevron-right-icon6 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.87;
+}
+.frame-parent13 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-6xs);
+}
+.frame-parent11,
+.frame-parent13,
+.meetings-parent2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.meetings-parent2 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xl);
+  opacity: 0.9;
+}
+.frame-parent11 {
+  position: absolute;
+  height: 44.62%;
+  width: 85.63%;
+  top: 13.11%;
+  right: 8.13%;
+  bottom: 42.27%;
+  left: 6.25%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  font-family: var(--font-poppins);
+}
+.instance-child1,
+.instance-child2 {
+  position: absolute;
+  height: 5.87%;
+  width: 93.44%;
+  top: 0;
+  right: 6.56%;
+  bottom: 94.13%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.instance-child2 {
+  height: 2.05%;
+  width: 50.28%;
+  top: 1.86%;
+  right: 43.78%;
+  bottom: 96.09%;
+  left: 5.94%;
+  display: none;
+}
+.instance-child3,
+.menu-icon7 {
+  position: absolute;
+  top: 23px;
+  left: 21px;
+  width: 160px;
+  height: 18.64px;
+}
+.menu-icon7 {
+  height: 1.38%;
+  width: 9.38%;
+  top: 2.25%;
+  right: 12.81%;
+  bottom: 96.37%;
+  left: 77.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.menu,
+.rectangle-parent3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 1022px;
+}
+.menu {
+  top: 1px;
+  background-color: var(--color-white);
+  height: 988px;
+  overflow: hidden;
+}
+.instance-child4 {
+  height: 5.82%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 94.18%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.instance-child4,
+.menu-container,
+.menu-icon8 {
+  position: absolute;
+  overflow: hidden;
+}
+.menu-icon8 {
+  height: 2.29%;
+  width: 40%;
+  top: 1.81%;
+  right: 30%;
+  bottom: 95.9%;
+  left: 30%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.menu-container {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 60px;
+  height: 1049px;
+  display: none;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.group-child26 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 800px;
+  height: 658px;
+}
+.group-child27 {
+  position: absolute;
+  top: 60.5px;
+  left: 0.5px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 800px;
+  height: 1px;
+}
+.expand-more-24px-icon3 {
+  position: relative;
+  width: 23px;
+  height: 24px;
+  display: none;
+}
+.basic-details {
+  position: relative;
+  font-weight: 600;
+}
+.expand-more-24px-parent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.contact2 {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  width: 104px;
+  height: 24px;
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 221px;
+  left: 399px;
+  width: 800px;
+  height: 658px;
+  display: none;
+  color: var(--color-black);
+}
+.perm-scan-wifi-24px-icon {
+  position: absolute;
+  height: 1.78%;
+  width: 1.25%;
+  top: 30%;
+  right: 83.44%;
+  bottom: 68.22%;
+  left: 15.31%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mettlerhealth-create-patient-inner {
+  position: absolute;
+  top: 95.5px;
+  left: 321.5px;
+  border-right: 1px solid #e3e6e7;
+  box-sizing: border-box;
+  width: 1px;
+  height: 745px;
+}
+.group-child28 {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  background-color: var(--color-darkslateblue-100);
+  width: 1px;
+  height: 30px;
+}
+.group-child29 {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 4px;
+  height: 8px;
+}
+.group-child30,
+.rectangle-parent5 {
+  position: absolute;
+  top: 111px;
+  left: 318px;
+  width: 5px;
+  height: 30px;
+}
+.group-child30 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  border: 1px dashed #9facc6;
+  box-sizing: border-box;
+  width: 234px;
+  height: 70px;
+}
+.upload-profile-pic {
+  position: absolute;
+  top: 25px;
+  left: 56px;
+  letter-spacing: -0.1px;
+  font-weight: 500;
+}
+.rectangle-parent6 {
+  position: absolute;
+  top: 175px;
+  left: 938px;
+  width: 234px;
+  height: 70px;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightsteelblue-200);
+}
+.mettlerhealth-create-patient {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1280px;
+  height: 900px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-tomato);
+  font-family: var(--font-poppins);
+}

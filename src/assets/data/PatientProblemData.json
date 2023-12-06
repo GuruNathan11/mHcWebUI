@@ -1,0 +1,31 @@
+{
+  "id": "",
+  "patientId": "",
+  "problemCategory": "",
+  "problemDescription": "",
+  "dateOfOnset": "",
+  "updatedDate": "",
+  "lastUpdate": "",
+  "respProvider": "",
+  "problemStatus": "",
+  "inactive": true,
+  "service": "",
+  "immediacy": "",
+  "clinic": "",
+  "relevantMedicalHistory": "",
+  "medicationHistory": "",
+  "familyHistoryOfReleatedProblem": "",
+  "severityOfProblem": "",
+  "locationOfProblem": "",
+  "associatedSymptoms": "",
+  "treatmentFactors": [
+    ""
+  ],
+  "physicianName": "",
+  "allergyInformation": "",
+  "otherRelevantMedicalCondition": "",
+  "diagnosticTestResults": "",
+  "referralInformation": "",
+  "comments": "",
+  "lastVisit": ""
+}

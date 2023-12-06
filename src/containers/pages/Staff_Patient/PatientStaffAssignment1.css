@@ -1,0 +1,528 @@
+.doctor-tools-and-medical-eleme1,
+.patient-staff-assignment-child4 {
+  position: absolute;
+  top: 0;
+  left: -324px;
+  width: 1092px;
+  height: 780px;
+  display: none;
+  mix-blend-mode: screen;
+}
+.patient-staff-assignment-child4 {
+  top: 73px;
+  left: -195px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(19, 60, 147, 0.53),
+    rgba(19, 60, 147, 0.58)
+  );
+  width: 768px;
+  mix-blend-mode: normal;
+}
+.patient-staff-assignment-child5 {
+  position: absolute;
+  height: 100.11%;
+  width: 84.58%;
+  top: -0.11%;
+  right: 40%;
+  bottom: 0;
+  left: -24.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.error-message1 {
+  position: absolute;
+  top: 319px;
+  left: 815px;
+  font-size: var(--font-size-2xs);
+  font-weight: 300;
+  color: var(--color-tomato);
+  display: none;
+}
+.delete2,
+.delete3 {
+  position: relative;
+  font-weight: 500;
+}
+.delete3 {
+  font-size: var(--font-size-base);
+  display: none;
+}
+.delete-group,
+.frame-parent4 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.delete-group {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro-400);
+  display: flex;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  align-items: flex-start;
+}
+.frame-parent4 {
+  position: absolute;
+  top: 275px;
+  left: 723px;
+  display: none;
+  align-items: center;
+}
+.patient-staff-assignment-child6 {
+  position: absolute;
+  top: 201px;
+  left: -15px;
+  background-color: var(--color-silver-100);
+  width: 1222px;
+  height: 48px;
+  display: none;
+}
+.patient-staff-assignment-child7 {
+  position: absolute;
+  top: 229px;
+  left: 5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-aliceblue);
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: multiply;
+}
+.instance-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.patient-staff-assignment-inner1 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 59px;
+  cursor: pointer;
+}
+.patient-staff-assignment-child8 {
+  position: absolute;
+  width: calc(100% - 280px);
+  top: 92px;
+  right: 108px;
+  left: 172px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1682px;
+}
+.iconssearch2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.search-products2 {
+  position: relative;
+  letter-spacing: -0.16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  width: 121px;
+  flex-shrink: 0;
+}
+.iconssearch-container {
+  position: absolute;
+  top: 118px;
+  right: 127px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-lavender);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-7xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  opacity: 0.5;
+  color: var(--color-lightslategray-200);
+  font-family: var(--font-inter);
+}
+.patient-staff-assignment-child9 {
+  position: absolute;
+  width: calc(100% - 318px);
+  top: 159.5px;
+  right: 126.5px;
+  left: 191.5px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+.destination-name-input7 {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.form-fields4 {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name-input {
+  flex: 1;
+}
+.form-fields5 {
+  width: 646px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.form4 {
+  position: absolute;
+  width: calc(100% - 319px);
+  top: 308px;
+  right: 127px;
+  left: 192px;
+  gap: var(--gap-mini);
+}
+.form4,
+.form5,
+.form6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form5 {
+  position: absolute;
+  width: calc(100% - 319px);
+  top: 383px;
+  right: 127px;
+  left: 192px;
+  gap: var(--gap-mini);
+}
+.form6 {
+  top: 458px;
+}
+.form6,
+.form7,
+.form8 {
+  position: absolute;
+  width: calc(100% - 319px);
+  right: 127px;
+  left: 192px;
+  gap: var(--gap-mini);
+}
+.form7 {
+  top: 533px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form8 {
+  top: 608px;
+}
+.form10,
+.form8,
+.form9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form9 {
+  position: absolute;
+  width: calc(100% - 319px);
+  top: 683px;
+  right: 127px;
+  left: 192px;
+  gap: var(--gap-mini);
+}
+.form10 {
+  top: 758px;
+}
+.form10,
+.form11,
+.form12 {
+  position: absolute;
+  width: calc(100% - 319px);
+  right: 127px;
+  left: 192px;
+  gap: var(--gap-mini);
+}
+.form11 {
+  top: 833px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form12 {
+  top: 908px;
+}
+.form12,
+.form13,
+.form14 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form13 {
+  position: absolute;
+  width: calc(100% - 319px);
+  top: 983px;
+  right: 127px;
+  left: 192px;
+  gap: var(--gap-mini);
+}
+.form14 {
+  top: 1058px;
+}
+.form14,
+.form15,
+.form16 {
+  position: absolute;
+  width: calc(100% - 319px);
+  right: 127px;
+  left: 192px;
+  gap: var(--gap-mini);
+}
+.form15 {
+  top: 1133px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form16 {
+  top: 1208px;
+}
+.form-fields30,
+.form16,
+.form17,
+.form18,
+.form19,
+.form20,
+.form21 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form-fields30 {
+  width: 300px;
+  height: 78px;
+}
+.form17,
+.form18,
+.form19,
+.form20,
+.form21 {
+  position: absolute;
+  width: calc(100% - 319px);
+  top: 1283px;
+  right: 127px;
+  left: 192px;
+  gap: var(--gap-mini);
+}
+.form18,
+.form19,
+.form20,
+.form21 {
+  top: 1372px;
+}
+.form19,
+.form20,
+.form21 {
+  top: 1447px;
+}
+.form20,
+.form21 {
+  top: 1520px;
+}
+.form21 {
+  top: 1621px;
+}
+.bg-icon3,
+.label3 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.bg-icon3 {
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.label3 {
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.previous1 {
+  position: relative;
+  width: 87px;
+  height: 32px;
+  display: none;
+}
+.cancel-group {
+  width: 291px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-xl);
+}
+.component-5011 {
+  position: absolute;
+  height: 3.18%;
+  width: calc(100% - 59px);
+  top: 96.82%;
+  right: -1px;
+  bottom: 0;
+  left: 60px;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-188xl);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: var(--primary-gunmetal);
+}
+.departure-field1 {
+  align-self: stretch;
+  flex: 1;
+}
+.form-inputs-row1,
+.inputs-row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputs-row1 {
+  flex: 1;
+  padding: var(--padding-8xs);
+}
+.form-inputs-row1 {
+  position: absolute;
+  width: calc(100% - 310px);
+  top: 190px;
+  right: 123px;
+  left: 187px;
+}
+.role,
+.staff-1,
+.staff-2,
+.staff-3,
+.staff-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+}
+.staff-1,
+.staff-2,
+.staff-3,
+.staff-4 {
+  left: 314px;
+}
+.staff-2,
+.staff-3,
+.staff-4 {
+  left: 479px;
+}
+.staff-3,
+.staff-4 {
+  left: 646px;
+}
+.staff-4 {
+  left: 807px;
+}
+.patient-staffs1,
+.role-parent,
+.staff-patients1 {
+  position: absolute;
+  font-size: var(--font-size-base);
+}
+.role-parent {
+  top: 275px;
+  left: 193px;
+  width: 856px;
+  height: 24px;
+  opacity: 0.5;
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.patient-staffs1,
+.staff-patients1 {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 137px;
+  height: 44px;
+}
+.patient-staffs1 {
+  top: 114px;
+  left: 192px;
+  color: var(--color-darkslateblue-200);
+}
+.staff-patients1 {
+  top: 116px;
+  left: 372px;
+  cursor: pointer;
+}
+.patient-staff-assignment-child10 {
+  position: absolute;
+  top: 160px;
+  left: 192px;
+  background-color: var(--color-darkslateblue-200);
+  width: 137px;
+  height: 2px;
+}
+.patient-staff-assignment1 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1888px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 960px) {
+  .inputs-row1 {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .form-inputs-row1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .departure-field1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputs-row1 {
+    flex-direction: column;
+  }
+}

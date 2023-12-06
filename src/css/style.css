@@ -1,0 +1,93 @@
+
+input{
+    background:#f1f4ff;
+    font-family: "Times New Roman", Times, serif;
+}
+::placeholder{
+    font-size: large;
+    color:grey;
+    font-weight:600;
+}
+#removePadding {
+    padding: 0.5rem !important;
+}
+
+#inputMediumFormPadding{
+    padding: 1rem !important;
+    padding-right: 8rem !important;
+}
+
+#inputSmallFormPadding{
+    padding: 1rem !important;
+    padding-right: 7rem !important;
+}
+
+#selectMediumFormPadding{
+    padding: 1rem !important;
+    padding-right: 8rem !important;
+}
+#selectSmallFormPadding{
+    padding: 1rem !important;
+    padding-right: 8rem !important;
+}
+
+#dateMediumFormPadding{
+    padding: 1rem !important;
+    padding-right: 8rem !important;
+}
+
+#PaddingRemove {
+    padding: 0.9rem !important;
+}
+
+/* #removePadding div{
+    padding: 0.4rem !important;
+} */
+.react-datepicker-ignore-onclickoutside{
+    padding: 0.5rem !important;  
+}
+#removePadding  .react-datepicker-wrapper{
+    width:100%
+}
+#paddingTop{
+    padding: 0.5rem !important;
+    padding-top: 0.3rem !important;
+}
+
+#allRemovePadding{
+    padding: 0rem !important;
+}   
+
+#paddingTopBottom{
+    padding: 0.5rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+    @media only screen and (max-width: 400px) {
+       
+    }
+#allRemovePadding{
+    padding: 0rem !important;
+}   
+  
+#removePaddingbottom{
+    padding-top: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-bottom: 0rem !important;
+}
+#topPaddingRemove{
+    padding-top: 0rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+#removePaddingTop{
+    padding-top: 0rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-bottom: 0.5rem !important;
+    margin-left: 14px !important;
+}
+

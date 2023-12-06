@@ -1,0 +1,16 @@
+{
+    "id": "",
+    "floorNo": "",
+    "wing": "",
+    "wardName": "",
+    "side": "",
+    "roomNo": "",
+    "bedType": "",
+    "bedNo": "",
+    "bedFeatures": "",
+    "supervisionLevel": "",
+    "securityMeasures": "",
+    "position": "",
+    "occupied": true,
+    "organization": ""
+  }

@@ -1,0 +1,35 @@
+[
+    {
+        "page_label": "Basic Detail Form",
+        "fields": [
+            {
+                "id": "fiName",
+                "label": "First Name",
+                "mandatory": true,
+                "placeholder": "Enter name",
+                "fieldType": "text",
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "id": "laName",
+                "label": "Last Name",
+                "mandatory": true,
+                "placeholder": "Enter email",
+                "fieldType": "text", 
+                "size": "Medium",
+                "fieldValue": ""
+            },
+            {
+                "id": "foEmail",
+                "label": "Email",
+                "mandatory": true,
+                "placeholder": "Enter email",
+                "fieldType": "text", 
+                "size": "Medium",
+                "fieldValue": ""
+            }
+           
+        ]
+    }
+]
