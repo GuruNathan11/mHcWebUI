@@ -217,7 +217,7 @@ const VisitPatientdata: React.FC<IVisitPatientdata> = ({
         convertedDId = convertedDId.replace(/(.{2})/g, "$1:");
         convertedDId = convertedDId.slice(0, -1);
         try {
-            const res = await axios.post("http://66.169.158.106:7000/api/beacon", {
+            const res = await axios.post("http://47.32.254.89:7000/api/beacon", {
                 id: "",
                 deviceName,
                 deviceId: convertedDId
@@ -328,7 +328,7 @@ const VisitPatientdata: React.FC<IVisitPatientdata> = ({
                 if (res.data.message.code === "MHC - 0200") {
                     setInputOrgId(res.data.data.id);
                     dispatch(getBedAssignmentByOrgId(res.data.data.id));
-                    setInputOrgData(res.data.data.organizationdetails[0].name);
+                    setInputOrgData(res.data.data.id);
                     HttpLogin.axios().get("/api/forms/get")
                         .then((resp) => {
                             if (resp.data.message.code === "MHC - 0200") {

@@ -83,6 +83,7 @@ const AddProcedure: React.FC<IAddProcedure> = ({
     let [inputOrgId, setInputOrgId] = useState("");
     let [loginEnteredBy, setLoginEnteredBy] = useState("");
     let [Urgency, setUrgency] = useState(null);
+    let[Procedure,setProcedure] = useState (null);
     const [spinner, setSpinner] = useState(false);
     useEffect(() => {
         setSpinner(true); 
@@ -132,6 +133,8 @@ const AddProcedure: React.FC<IAddProcedure> = ({
                 setseverity(severity[0]);
                 let Urgency = response.data.data.filter(k => k.dropdown === "Urgency").map((i) => { return i.list })
                 setUrgency(Urgency[0]);
+                let Procedure = response.data.data.filter(k => k.dropdown === "Procedure").map((i) => { return i.list })
+                setProcedure(Procedure[0]);
             })
 
         HttpLogin.axios().get("api/patient/getPatient/" + decodeFinalPatientid)
@@ -226,6 +229,11 @@ const AddProcedure: React.FC<IAddProcedure> = ({
         }, (1000));
     }
     let newUrgencyData = Urgency != null && Urgency.length > 0 && Urgency.map((item, i) => {
+        return (
+            <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
+        )
+    })
+    let newProcedureData = Procedure != null && Procedure.length > 0 && Procedure.map((item, i) => {
         return (
             <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
         )
@@ -532,9 +540,7 @@ const AddProcedure: React.FC<IAddProcedure> = ({
                             <InputLabel color="primary" ><span >Procedure
                             </span></InputLabel>
                             <Select color="primary" size="medium" label="Procedure" id="procedure" name="procedure" value={inputFormData.procedure} onChange={handleInputChange}>
-                                <MenuItem value="Vital Unit1">Vital Unit1</MenuItem>
-                                <MenuItem value="Vital Unit2">Vital Unit2</MenuItem>
-                                <MenuItem value="Vital Unit3">Vital Unit3</MenuItem>
+                               {newProcedureData}
                             </Select>
                             <FormHelperText />
                         </FormControl>

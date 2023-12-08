@@ -45,7 +45,7 @@ const  PatientStaffAssign: React.FC<IPatientStaffAssign> = ({
      HttpLogin.axios().get("api/org/getById/"+orgData)
      .then((res) => {
       if(res.data.message.code === "MHC - 0200"){        
-        setInputOrgData(res.data.data.organizationdetails[0].name);
+        setInputOrgData(res.data.data.id);
       }else{    
         alert(res.data.message.description);      
         setInputOrgData("");
@@ -282,8 +282,8 @@ return  (
       </div>
             <DataTable style={{border:'0px',top:"20px"}}
                   value={tableNewData} onRowSelect={onRowSelectData}
-                  selectionMode="multiple"
-                  rows={50} scrollable={true}
+                  selectionMode="multiple" 
+                  rows={50} scrollable={true} 
                   responsive={true} selection={selectedValues} onSelectionChange={onSelectionChangedData}
                   emptyMessage="No records found">
                   <Column selectionMode="multiple" headerStyle={{width:'4%',background:'#F2F4F9',color:'#9DA1C3',fontFamily:'Poppins',fontSize:'14px',fontWeight:500}} style={{borderLeft:'0px',borderRight:'0px',width:'5%',background:'#FFF'}}></Column>

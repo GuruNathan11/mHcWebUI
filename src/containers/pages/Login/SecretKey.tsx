@@ -66,14 +66,11 @@ const SecretKey: React.FC<ISecretKey> = ({
 
     }
   }, []);
-  // const inputData = {
-  //   pinNumber: []
-  // }
-  const [inputFormdata, setInputFormdata] = useState({
-    pinNumber: ['', '', '', '', '', ''],
-  });
+  const inputData = {
+    pinNumber: []
+  }
 
-  // let [inputFormdata, setInputFormdata] = useState(inputData);
+  let [inputFormdata, setInputFormdata] = useState(inputData);
   const [isPageLoaded, setPageLoaded] = useState(false);
 
   if (!isPageLoaded && !loginSecurityData.isLoading) {
@@ -84,7 +81,7 @@ const SecretKey: React.FC<ISecretKey> = ({
 
         var loginData = JSON.parse(window.localStorage.getItem("LOGINDATA"));
         if (loginData.items.data.userType[0] === "Staff") {
-          window.location.href = "/MettlerPatientLoginDashboard";
+          window.location.href = "/MettlerPatientDetails";
         } else if (loginData.items.data.userType[0] == "Patient") {
           var CryptoJS = require("crypto-js");
           var encryptPatientId = CryptoJS.AES.encrypt(loginData.items.data.userDetail.id, 'secret key 123');
@@ -180,6 +177,7 @@ const SecretKey: React.FC<ISecretKey> = ({
     }, passwordMaskDelay);
   };
 
+
   const handlePageChange = (event: any) => {
     
     if (passcodeImage === "1") {
@@ -241,64 +239,13 @@ const SecretKey: React.FC<ISecretKey> = ({
       <div className="p-col-12 p-md-3 passcode-secondPage" id="removePadding">
         <div>{passcodeImage === "2" ? <span style={{ display: 'block' }} className="passCodeText">Enter you Passcode</span> : <span className="passCodeText1">Please enter your OTP to Reset Password</span>}</div>
         <div className="passwordText">
-        <input
-          id="pinNumber1"
-          className="passwordText1"
-          name="pinNumber"
-          autoFocus
-          value={inputFormdata.pinNumber[0]}
-          required
-          onChange={handleInputChange}
-          maxLength={1}
-        />
-        <input
-          id="pinNumber2"
-          className="passwordText2"
-          name="pinNumber"
-          value={inputFormdata.pinNumber[1]}
-          required
-          onChange={handleInputChange}
-          maxLength={1}
-        />
-        <input
-          id="pinNumber3"
-          className="passwordText3"
-          name="pinNumber"
-          value={inputFormdata.pinNumber[2]}
-          required
-          onChange={handleInputChange}
-          maxLength={1}
-        />
-        <input
-          id="pinNumber4"
-          className="passwordText4"
-          name="pinNumber"
-          value={inputFormdata.pinNumber[3]}
-          required
-          onChange={handleInputChange}
-          maxLength={1}
-        />
-        <input
-          id="pinNumber5"
-          className="passwordText5"
-          name="pinNumber"
-          value={inputFormdata.pinNumber[4]}
-          required
-          onChange={handleInputChange}
-          maxLength={1}
-        />
-        <input
-          id="pinNumber6"
-          className="passwordText6"
-          name="pinNumber"
-          value={inputFormdata.pinNumber[5]}
-          required
-          onChange={handleInputChange}
-          onKeyDown={handleInputChange}
-          maxLength={1}
-        />
-      </div>
-
+          <input id="pinNumber1" className="passwordText1" name="pinNumber" autoFocus value={inputFormdata.pinNumber[0]} required onChange={handleInputChange} maxLength={1} />
+          <input id="pinNumber2" className="passwordText2" name="pinNumber" value={inputFormdata.pinNumber[1]} required onChange={handleInputChange} maxLength={1} />
+          <input id="pinNumber3" className="passwordText3" name="pinNumber" value={inputFormdata.pinNumber[2]} required onChange={handleInputChange} maxLength={1} />
+          <input id="pinNumber4" className="passwordText4" name="pinNumber" value={inputFormdata.pinNumber[3]} required onChange={handleInputChange} maxLength={1} />
+          <input id="pinNumber5" className="passwordText5" name="pinNumber" value={inputFormdata.pinNumber[4]} required onChange={handleInputChange} maxLength={1} />
+          <input id="pinNumber6" className="passwordText6" name="pinNumber" value={inputFormdata.pinNumber[5]} required onChange={handleInputChange} onKeyDown={handleKeyDown} maxLength={1} />
+        </div>
         {/* <button style={{position:"relative",top:"50px"}} onClick={toggleMasking}>Toggle Masking</button> */}
         <div className="buttonPasscode">
           <Button style={{ width: '321px', position: 'relative', fontFamily: 'Poppins', fontWeight: 'bold', fontSize: '16px', height: '48px', backgroundColor: '#1F489F' }} onClick={handlePageChange} label="Submit"></Button>

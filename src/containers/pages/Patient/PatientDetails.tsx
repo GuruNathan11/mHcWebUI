@@ -41,11 +41,11 @@ const PatientDetails: React.FC<IPatientDetails> = ({
     HttpLogin.axios().get("api/org/getById/" + orgData)
       .then((res) => {
         if (res.data.message.code === "MHC - 0200") {
-          setInputOrgData(res.data.data.organizationdetails[0].name);
+          setInputOrgData(res.data.data.id);
         } else {
           setInputOrgData("");
         }
-      })
+      })    
     dispatch(getAllPatient());
   }, []);
 
@@ -89,8 +89,28 @@ const PatientDetails: React.FC<IPatientDetails> = ({
     window.location.reload();
   }
   const onPatientEditChange = (event) => {
-    setNewDialog(true);
-    setRowDataValue(event.data);
+
+    HttpLogin.axios().get("/api/visit/ByPid/" + event.data.id)
+    .then((response) => {
+      console.log(JSON.stringify(event.data));   
+      var CryptoJS = require("crypto-js");
+      var encryptId = CryptoJS.AES.encrypt(event.data.id, 'secret key 123');
+      var setEncryptId = encodeURIComponent(encryptId.toString());
+      console.log(JSON.stringify(response.data.data));         
+      if (response.data.message.code === "MHC - 0200") {
+        var elementNew = response.data.data[response.data.data.length - 1];
+        if (elementNew.lastVisit !== "") {
+          var encryptVisitId = CryptoJS.AES.encrypt(elementNew.lastVisit, 'secret key 123');
+          var setEncryptVisitId = encodeURIComponent(encryptVisitId.toString());
+        }else{
+          var encryptVisitId = CryptoJS.AES.encrypt(elementNew.id, 'secret key 123');
+          var setEncryptVisitId = encodeURIComponent(encryptVisitId.toString());
+        }
+        window.location.href = "/MettlerVisitPatientdata/"+setEncryptId+"/"+setEncryptVisitId;
+      }else{
+        window.location.href = "/MettlerAdmitPatientupdated/"+setEncryptId;        
+      }
+    })
     // return <a style={{cursor:'pointer'}} onClick={()=>patientEditChange(event.data)}>{event.data.id != "" ? <><img style={{width:'20px',height:'20px',opacity:0.8}} src={dotImage}></img>
     // </>:<span><img style={{width:'20px',height:'20px',opacity:0.8}} src={dotImage}></img></span>}</a>;
     //   var CryptoJS = require("crypto-js"); 
@@ -114,7 +134,7 @@ const PatientDetails: React.FC<IPatientDetails> = ({
   }
   const dataphone = (rowData) => {
 
-    return <a style={{ cursor: 'pointer' }}><span> {rowData.id != "" ? rowData.contact[0].mobilePhone : ""}</span></a>
+    return <a style={{ cursor: 'pointer' }}><span> {rowData.contact[0].mobilePhone != "" ? rowData.contact[0].mobilePhone : "--"}</span></a>
   }
 
   const dataGender = (rowData) => {
@@ -135,7 +155,7 @@ const PatientDetails: React.FC<IPatientDetails> = ({
   const [isPageGetpatLoaded, setPageGetpatLoaded] = useState(false);
   //
   if (!isPageGetpatLoaded && !getAllPatientData.isLoading) {
-    if (getAllPatientData.items.message.code === "MHC - 0200") {
+    if (getAllPatientData.items.message.code === "MHC - 0200") {      
       setTableData(getAllPatientData.items.data.filter(t => t.organization === inputOrgData));
       setSpinner(false);
     } else {
@@ -177,17 +197,10 @@ const PatientDetails: React.FC<IPatientDetails> = ({
       <div style={{backgroundColor:"#ffffff"}}>
 
         <div style={{ display: "flex",justifyContent:"space-around",position:"relative",top:"50px", }}>
-          <div id="removePadding" className="patientDashboard" style={{ width: '214.297px', height: '160.121px', flexShrink: 0 }}>
-            <div className="patient-1-dashboardText">
-              Bed Availability
-            </div>
-            <img className="patient-1-dashboardImage" src={speedometerEdit}></img>
-            <div><span style={{ position: 'relative', top: '7.65px', left: '32px' }} className="dashboard-1-count">1272</span><span style={{ position: 'relative', top: '7.65px', left: '98px' }} className="dashboard-1-count">345</span></div>
-            <div><span style={{ position: 'relative', left: '8px', top: '-2px' }} className="patient-1-dashboardSpeedoText">Total No. Of Beds</span><span style={{ position: 'relative', left: '28px', top: '-2px' }} className="patient-1-dashboardSpeedoText">Available Beds</span></div>
-          </div>
+          
           {/* <div id="removePadding" style={{width:'24.08px'}}></div>   */}
           <div id="removePadding" className="patientDashboard" style={{ width: '214.297px', height: '160.121px', flexShrink: 0, background: '#F1FCF0' }}>
-            <div><span style={{ position: 'relative', top: '14px', left: '14px' }} className="dashboard-1-text">Assigned by me</span></div>
+            <div><span style={{ position: 'relative', top: '14px', left: '14px' }} className="dashboard-1-text">My Patients</span></div>
             <div><span style={{ position: 'relative', top: '35.81px', left: '15.87px', fontSize: '24px' }} className="dashboard-1-count">872</span></div>
             <div style={{ position: 'relative', left: '15px', top: '35px' }} className="dashboard-1-percent-change">+11.07%<img src={arrowRise} style={{ width: '11.667px', height: '11.667px' }}></img></div>
           </div>
@@ -209,7 +222,14 @@ const PatientDetails: React.FC<IPatientDetails> = ({
             <div><span style={{ position: 'relative', top: '35.81px', left: '15.87px', fontSize: '24px' }} className="dashboard-1-count">72</span></div>
             <div style={{ position: 'relative', left: '15px', top: '35px' }} className="dashboard-1-percent-change">+11.07%<img src={arrowRise} style={{ width: '11.667px', height: '11.667px' }}></img></div>
           </div>
-
+          <div id="removePadding" className="patientDashboard" style={{ width: '214.297px', height: '160.121px', flexShrink: 0 }}>
+            <div className="patient-1-dashboardText">
+              Bed Availability
+            </div>
+            <img className="patient-1-dashboardImage" src={speedometerEdit}></img>
+            <div><span style={{ position: 'relative', top: '7.65px', left: '32px' }} className="dashboard-1-count">1272</span><span style={{ position: 'relative', top: '7.65px', left: '98px' }} className="dashboard-1-count">345</span></div>
+            <div><span style={{ position: 'relative', left: '8px', top: '-2px' }} className="patient-1-dashboardSpeedoText">Total No. Of Beds</span><span style={{ position: 'relative', left: '28px', top: '-2px' }} className="patient-1-dashboardSpeedoText">Available Beds</span></div>
+          </div>
         </div>
       </div>
     </><div className="p-grid p-fluid dashboard" style={{ background: 'white', padding: '93px 16px 16px 25px' }}>

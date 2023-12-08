@@ -90,7 +90,7 @@ const AdmitPatientupdated: React.FC<IAdmitPatientupdated> = ({
         if (res.data.message.code === "MHC - 0200") {
         //  console.log(JSON.stringify(res.data.data));
           setInputOrgId(res.data.data.id);
-          setInputOrgData(res.data.data.organizationdetails[0].name);
+          setInputOrgData(res.data.data.id);
 
         } else {
           setInputOrgData("");
@@ -237,7 +237,7 @@ const AdmitPatientupdated: React.FC<IAdmitPatientupdated> = ({
     if (CreatePatientVisitData.items.message.code === "MHC - 0200") {
       alert(CreatePatientVisitData.items.message.description);  
       setTimeout(() => {
-        window.location.href = "/MettlerVisitPatientDetails/"+encryptPatientId;
+        window.location.href = "/MettlerPatientDetails";
         setSpinner(false);
       }, (1000));   
       setAdmitPatientupdateLoaded(true);    
@@ -273,7 +273,7 @@ if (!isUpdateAdmitpatientLoaded && !updatePatientVisitData.isLoading) {
   
       console.log(JSON.stringify(updatePatientVisitData.items));  
       setTimeout(() => {
-        window.location.href = "/MettlerAdmitPatient";
+        window.location.href = "/MettlerPatientDetails";
         setSpinner(false);
       }, (1000)); 
       setUpdateAdmitpatientLoaded(true);  

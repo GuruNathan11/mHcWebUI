@@ -104,7 +104,7 @@ const AddPatientVitals: React.FC<IAddPatientVitals> = ({
         HttpLogin.axios().get("api/org/getById/" + orgData)
             .then((res) => {
                 if (res.data.message.code === "MHC - 0200") {
-                    setInputOrgData(res.data.data.organizationdetails[0].name);
+                    setInputOrgData(res.data.data.id);
                 } else {
                     setInputOrgData("");
                 }

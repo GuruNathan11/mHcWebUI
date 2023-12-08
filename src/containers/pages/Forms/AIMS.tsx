@@ -166,8 +166,8 @@ const AIMS: React.FC<IAIMS> = ({
 
     var obj = {
       "id": newFormId !== "" && newFormId !== undefined ? newFormId: "",
-      "pid": decryptPatientid !== "" ? decryptPatientid: "",
-      "lastVisit": decryptVisitid !== "" ? decryptVisitid: "",
+      "pid": decryptPatientid,
+      "lastVisit": decryptVisitid,
       "form": elements
     }
     var textCheck =  elements !== undefined && elements !== null && elements.fields.length>0 &&  elements.fields.filter(k=>k.mandatory === true && k.fieldType === 'text' && k.fieldValue === "");
@@ -444,7 +444,7 @@ const AIMS: React.FC<IAIMS> = ({
           <div style={{ border: '0px', position: "relative", top: decryptPatientid === ""?"0px":"200px", width: "calc(100% - 305px)", left: "unset", right: isVisible ? "-291px" : "-194px" }} className="p-fluid p-grid">
 
             {fields ? fields.map((field, i) => <Element key={i} field={field} />) : null}
-            <div style={{ display: 'flex', position: "relative", left: "-89px" }} className="p-col-12 p-md-12">
+            <div hidden={decryptPatientid === ""} style={{ display: 'flex', position: "relative", left: "-89px" }} className="p-col-12 p-md-12">
               {/* <div className="p-col-12 p-md-4">     </div> */}
               <div style={{ textAlign: 'center', flexDirection: "row-reverse", display: "flex", position: "relative", left: '369px',top:'108px' }} className="p-col-12 p-md-4"><Button label="Save" onClick={(e) => handleSubmit(e)} style={{ width: "fit-content", backgroundColor: "#1F489F", color: "white", borderColor: "#1F489F" }} />
                 &nbsp;&nbsp;&nbsp;

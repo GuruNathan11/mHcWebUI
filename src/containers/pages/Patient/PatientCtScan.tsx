@@ -86,7 +86,7 @@ const PatientCtScan: React.FC<IPatientCtScan> = ({
                 if (res.data.message.code === "MHC - 0200") {
 
                     setInputOrgId(res.data.data.id);
-                    setInputOrgData(res.data.data.organizationdetails[0].name);
+                    setInputOrgData(res.data.data.id);
                 } else {
                     setInputOrgData("");
                 }

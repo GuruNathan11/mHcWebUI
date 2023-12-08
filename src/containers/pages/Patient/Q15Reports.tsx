@@ -150,7 +150,7 @@ const Q15Reports: React.FC<IQ15Reports> = ({
              //   console.log(JSON.stringify(r[0].slice(0,2)));
                 setNewTimeSlot(r);      
 
-                    setInputOrgData(res.data.data.organizationdetails[0].name);
+                    setInputOrgData(res.data.data.id);
                  
                 } else {
                     setInputOrgData("");

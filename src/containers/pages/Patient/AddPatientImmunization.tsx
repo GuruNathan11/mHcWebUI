@@ -74,6 +74,7 @@ const AddPatientImmunization: React.FC<IAddPatientImmunization> = ({
     let [AnatomicLocationData, setAnatomicLocationData] = useState(null);
     let [ImmunizationsData, setImmunizationsData] = useState(null);
     let [Routess, setRoutes] = useState(null);
+    let [Series, setSeries] = useState(null);
     const [spinner, setSpinner] = useState(false);
     useEffect(() => {
         setSpinner(true); 
@@ -104,6 +105,8 @@ const AddPatientImmunization: React.FC<IAddPatientImmunization> = ({
                 setImmunizationsData(Immunizations[0]);
                 let Routes = response.data.data.filter(k => k.dropdown === "Route").map((i) => { return i.list })
                 setRoutes(Routes[0]);
+                let Series = response.data.data.filter(k => k.dropdown === "Series").map((i) => { return i.list })
+                setSeries(Series[0]);
 
             })
         //  console.log(JSON.stringify(decodeFinalId))     
@@ -154,7 +157,11 @@ const AddPatientImmunization: React.FC<IAddPatientImmunization> = ({
             <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
         )
     })
-
+    let newSeriesData = Series != null && Series.length > 0 && Series.map((item, i) => {
+        return (
+            <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
+        )
+    })
     const handleInputChange = (event: any) => {
         if (event.target.name === "immunization") {
             inputFormData.immunization = event.target.value;
@@ -515,9 +522,7 @@ const AddPatientImmunization: React.FC<IAddPatientImmunization> = ({
                             <InputLabel color="primary" ><span>Series
                             </span></InputLabel>
                             <Select color="primary" size="medium" label="Series" name="series" value={inputFormData.series} onChange={handleInputChange}>
-                                <MenuItem value="Series1">Series 1</MenuItem>
-                                <MenuItem value="Series2">Series2</MenuItem>
-                                <MenuItem value="Series3">Series 3</MenuItem>
+                               {newSeriesData}
                             </Select>
                             <FormHelperText />
                         </FormControl>

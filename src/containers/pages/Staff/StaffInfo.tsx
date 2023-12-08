@@ -341,7 +341,8 @@ if (!UpdateStaffData && UpdateStaffData.isFormSubmit) {
       inputStaffData.terminationDate = inputStaffData.terminationDate !== null && inputStaffData.terminationDate !== "" ? moment(inputStaffData.terminationDate).format('YYYYMMDD'):null;
       inputStaffData.employeeDetails[0].startDate = inputStaffData.employeeDetails[0].startDate !== null && inputStaffData.employeeDetails[0].startDate !== "" ? moment(inputStaffData.employeeDetails[0].startDate).format('YYYYMMDD'): null;
       inputStaffData.employeeDetails[0].endDate = inputStaffData.employeeDetails[0].endDate !== null && inputStaffData.employeeDetails[0].endDate !== "" ? moment(inputStaffData.employeeDetails[0].endDate).format('YYYYMMDD'): null; 
-    checkValidation();          
+    checkValidation();   
+    inputStaffData.organization = organizationId;           
     if(errorMessage === ""){   
       setSpinner(true);    
       setInputStaffData({...inputStaffData}); 
@@ -350,7 +351,7 @@ if (!UpdateStaffData && UpdateStaffData.isFormSubmit) {
         setUpdateStaffPageLoaded(false);   
                     
       } else{     
-        inputStaffData.organization = organizationId;    
+ 
         dispatch(createStaff(inputStaffData));  
         setCreateStaffPageLoaded(false);        
        

@@ -66,7 +66,7 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
     let [decryptVisitId, setDecryptVisitId] = useState(null);
     let [encryptId, setEncryptId] = useState(null);
     let [decryptId, setDecryptId] = useState(null);
-    
+
     let [getStaffDataItems, setGetStaffDataItems] = useState(new Array<any>());
     let [inputOrgData, setInputOrgData] = useState("");
     let [patientSSN, setPatientSSN] = useState(null);
@@ -83,7 +83,11 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
     let [loginEnteredBy, setLoginEnteredBy] = useState("");
     let [Urgency, setUrgency] = useState(null);
     const [spinner, setSpinner] = useState(false);
-
+    let [ImagingType, setImagingType] = useState(null);
+    let [Modifier, setModifier] = useState(null);
+    let [Transport, setTrasport] = useState(null);
+    let [Category, setCategory] = useState(null);
+    let [submitTo ,setSubmitTo] = useState(null);
     useEffect(() => {
         setSpinner(true);
         var encryptInitial = match.params.patientid;
@@ -131,13 +135,23 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
                 setseverity(severity[0]);
                 let Urgency = response.data.data.filter(k => k.dropdown === "Urgency").map((i) => { return i.list })
                 setUrgency(Urgency[0]);
+                let ImagingType = response.data.data.filter(k => k.dropdown === "ImagingType").map((i) => { return i.list })
+                setImagingType(ImagingType[0]);
+                let Modifier = response.data.data.filter(k => k.dropdown === "Modifiers").map((i) => { return i.list })
+                setModifier(Modifier[0]);
+                let Transport = response.data.data.filter(k => k.dropdown === "Transport").map((i) => { return i.list })
+                setTrasport(Transport[0]);
+                let Category = response.data.data.filter(k => k.dropdown === "Category").map((i) => { return i.list })
+                setCategory(Category[0]);
+                let SubmitTo = response.data.data.filter(k => k.dropdown === "submitTo").map((i) => { return i.list })
+                setSubmitTo(SubmitTo[0]);
             })
         HttpLogin.axios().get("api/patient/getPatient/" + decodeFinalPatientid)
             .then((response) => {
                 //     console.log(JSON.stringify(response.data.data))     
-                setInputPatientInfo(response.data.data.basicDetails[0].name[0].given+" "+response.data.data.basicDetails[0].name[0].family);
+                setInputPatientInfo(response.data.data.basicDetails[0].name[0].given + " " + response.data.data.basicDetails[0].name[0].family);
                 if (response.data.message.code === "MHC - 0200") {
-                    setInputPatientInfo(response.data.data.basicDetails[0].name[0].given+ " "+response.data.data.basicDetails[0].name[0].family);
+                    setInputPatientInfo(response.data.data.basicDetails[0].name[0].given + " " + response.data.data.basicDetails[0].name[0].family);
                     setPatientImage(response.data.data.basicDetails[0].profile !== "" ? response.data.data.basicDetails[0].profile : "");
                     setPatientDateOfBirth(moment(response.data.data.basicDetails[0].birthDate).format('MMM DD,YYYY'));
                     var genderChanges = response.data.data.basicDetails[0].gender === "M" ? "Male" : response.data.data.basicDetails[0].gender === "fm" ? "Female" : "Not Specify";
@@ -168,7 +182,33 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
         return (
             <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
         )
+    })   
+    let newImagingTypeData = ImagingType != null && ImagingType.length > 0 && ImagingType.map((item, i) => {
+        return (
+            <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
+        )
     })
+    let newModifierData = Modifier != null && Modifier.length > 0 && Modifier.map((item, i) => {
+        return (
+            <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
+        )
+    })
+    let newTrasportData = Transport != null && Transport.length > 0 && Transport.map((item, i) => {
+        return (
+            <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
+        )
+    })
+    let newCategoryData = Category != null && Category.length > 0 && Category.map((item, i) => {
+        return (
+            <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
+        )
+    })
+    let newSubmitToData = submitTo != null && submitTo.length > 0 && submitTo.map((item, i) => {
+        return (
+            <MenuItem key={i} value={item.id}>{item.value}</MenuItem>
+        )
+    })
+
 
     const [organizationred, setorganizationred] = useState(false);
     const handleInputChange = (event: any) => {
@@ -241,7 +281,7 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
 
             console.log(JSON.stringify(updatePatientImagingData.items));
             setTimeout(() => {
-                window.location.href = "/MettlerVisitPatientdata/"+encryptPatientId+"/"+encryptVisitId;
+                window.location.href = "/MettlerVisitPatientdata/" + encryptPatientId + "/" + encryptVisitId;
                 setSpinner(false);
             }, (1000));
             setupdatePatientImagingPageLoaded(true);
@@ -264,31 +304,31 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
 
     let [iscreatePatientImagingPageLoaded, setcreatePatientImagingPageLoaded] = useState(false);
 
-    if (!iscreatePatientImagingPageLoaded && !createPatientImagingData.isLoading) { 
-        setInputOrgData(createPatientImagingData.items.data);    
+    if (!iscreatePatientImagingPageLoaded && !createPatientImagingData.isLoading) {
+        setInputOrgData(createPatientImagingData.items.data);
         if (createPatientImagingData.items.message.code === "MHC - 0200") {
-          alert(createPatientImagingData.items.message.description);  
-          setTimeout(() => {
-            window.location.href = "/MettlerVisitPatientdata/"+encryptPatientId+"/"+encryptVisitId;
-            setSpinner(false);
-          }, (1000));   
-          setcreatePatientImagingPageLoaded(true);    
+            alert(createPatientImagingData.items.message.description);
+            setTimeout(() => {
+                window.location.href = "/MettlerVisitPatientdata/" + encryptPatientId + "/" + encryptVisitId;
+                setSpinner(false);
+            }, (1000));
+            setcreatePatientImagingPageLoaded(true);
         } else {
-          alert(createPatientImagingData.items.message.description);   
-          setTimeout(() => {
-            setcreatePatientImagingPageLoaded(false);
-            setSpinner(false);
-          }, (1000));
+            alert(createPatientImagingData.items.message.description);
+            setTimeout(() => {
+                setcreatePatientImagingPageLoaded(false);
+                setSpinner(false);
+            }, (1000));
         }
-      
-      }
-      if (!createPatientImagingData && createPatientImagingData.isFormSubmit) {
-      
+
+    }
+    if (!createPatientImagingData && createPatientImagingData.isFormSubmit) {
+
         setTimeout(() => {
             setcreatePatientImagingPageLoaded(false);
-          setSpinner(false);
+            setSpinner(false);
         }, (1000));
-      }
+    }
 
     const handleClickChange = () => {
         inputFormData.lastVisit = decryptVisitId;
@@ -297,28 +337,28 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
         inputFormData.dateDesired = moment(inputFormData.dateDesired).format('YYYYMMDD');
         inputFormData.preOpScheduled = moment(inputFormData.preOpScheduled).format('YYYYMMDD');
         console.log(JSON.stringify(inputFormData));
-        setSpinner(true);    
+        setSpinner(true);
         setInputFormData({ ...inputFormData });
         if (inputFormData.dateDesired === null || inputFormData.preOpScheduled === "" || inputFormData.clinicalHistory === "" || inputFormData.modifiers.length === 0 || inputFormData.urgency === "" || inputFormData.examsOver === "") {
             inputFormData.dateDesired = null;
             inputFormData.preOpScheduled = null;
             alert("Please Enter required data");
         } else if (inputFormData.id !== "") {
-            dispatch(updatePatientImagingById(inputFormData));                      
+            dispatch(updatePatientImagingById(inputFormData));
         } else {
-            dispatch(createPatientImaging(inputFormData));                      
+            dispatch(createPatientImaging(inputFormData));
         }
     }
 
     const handleBackclick = () => {
-        window.location.href = "/MettlerVisitPatientdata/"+encryptPatientId+"/"+encryptVisitId;
-      }
+        window.location.href = "/MettlerVisitPatientdata/" + encryptPatientId + "/" + encryptVisitId;
+    }
     return (
         <>
-        {spinner &&
+            {spinner &&
                 (<div className='overlay-content'>
                     <div className='wrapper'>
-                        <img alt="" src={loaddingFile} style={{ position: 'absolute', width: '100%', height:'-webkit-fill-available', zIndex: 2, opacity: '0.5' }} />
+                        <img alt="" src={loaddingFile} style={{ position: 'absolute', width: '100%', height: '-webkit-fill-available', zIndex: 2, opacity: '0.5' }} />
                     </div>
                 </div>
                 )}
@@ -332,7 +372,7 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
                         alt=""
                         src="/expand-more-24px.svg"
                     />
-                    <div className="beddetails"> <i onClick={handleBackclick} style={{ position: "relative", top: "6px", left: "-7px",cursor:"pointer" }} className="large material-icons">arrow_back</i>Add Imaging Procedure</div>
+                    <div className="beddetails"> <i onClick={handleBackclick} style={{ position: "relative", top: "6px", left: "-7px", cursor: "pointer" }} className="large material-icons">arrow_back</i>Add Imaging Procedure</div>
                 </div>
                 <div style={{ top: "6px", background: '#2D56AD', height: decryptPatientId != "" ? '98px' : '0px', display: 'flex', width: 'calc(100% - 0px)', position: 'absolute', left: "0px" }} >
                     <div id="mettlerEmptyPadding" className="p-col-12 p-md-1">
@@ -411,9 +451,7 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
                             <InputLabel color="primary" ><span >Modifiers
                             </span></InputLabel>
                             <Select color="primary" size="medium" label="Modifiers" multiple={true} id="modifiers" name="modifiers" value={inputFormData.modifiers} onChange={handleInputChange}>
-                                <MenuItem value="1">Vital Unit1</MenuItem>
-                                <MenuItem value="2">Vital Unit2</MenuItem>
-                                <MenuItem value="3">Vital Unit3</MenuItem>
+                                {newModifierData}
                             </Select>
                             <FormHelperText />
                         </FormControl>
@@ -442,9 +480,7 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
                             <InputLabel color="primary" ><span>Transport
                             </span></InputLabel>
                             <Select color="primary" size="medium" label="Transport" id="transport" name="transport" value={inputFormData.transport} onChange={handleInputChange}>
-                                <MenuItem value="1">Vital Unit1</MenuItem>
-                                <MenuItem value="2">Vital Unit2</MenuItem>
-                                <MenuItem value="3">Vital Unit3</MenuItem>
+                               {newTrasportData}
                             </Select>
                             <FormHelperText />
                         </FormControl>
@@ -462,9 +498,7 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
                             <InputLabel color="primary" ><span>Submit to
                             </span></InputLabel>
                             <Select color="primary" size="medium" label="Submit to" id="submitTo" name="submitTo" value={inputFormData.submitTo} onChange={handleInputChange}>
-                                <MenuItem value="1">Vital Unit1</MenuItem>
-                                <MenuItem value="2">Vital Unit2</MenuItem>
-                                <MenuItem value="3">Vital Unit3</MenuItem>
+                               {newSubmitToData}
                             </Select>
                             <FormHelperText />
                         </FormControl>
@@ -473,9 +507,7 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
                             <InputLabel color="primary" ><span>Category
                             </span></InputLabel>
                             <Select color="primary" size="medium" label="Category" id="category" name="category" value={inputFormData.category} onChange={handleInputChange}>
-                                <MenuItem value="1">Vital Unit1</MenuItem>
-                                <MenuItem value="2">Vital Unit2</MenuItem>
-                                <MenuItem value="3">Vital Unit3</MenuItem>
+                                {newCategoryData}
                             </Select>
                             <FormHelperText />
                         </FormControl>
@@ -592,9 +624,7 @@ const AddImagingProcedure: React.FC<IAddImagingProcedure> = ({
                             <InputLabel color="primary" ><span >Imaging Type
                             </span></InputLabel>
                             <Select color="primary" size="medium" label="Imaging Type" id="imagingType" name="imagingType" value={inputFormData.imagingType} onChange={handleInputChange}>
-                                <MenuItem value="1">Vital Unit1</MenuItem>
-                                <MenuItem value="2">Vital Unit2</MenuItem>
-                                <MenuItem value="3">Vital Unit3</MenuItem>
+                                {newImagingTypeData}
                             </Select>
                             <FormHelperText />
                         </FormControl>

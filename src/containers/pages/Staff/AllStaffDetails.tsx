@@ -46,7 +46,7 @@ const AllStaffDetails: React.FC<IAllStaffDetails> = ({
    HttpLogin.axios().get("api/org/getById/"+orgData)
    .then((res) => {
     if(res.data.message.code === "MHC - 0200"){      
-      setInputOrgData(res.data.data.organizationdetails[0].name);
+      setInputOrgData(res.data.data.id);
     }else{ 
       alert(res.data.message.description);      
       setInputOrgData("");
@@ -104,7 +104,8 @@ const AllStaffDetails: React.FC<IAllStaffDetails> = ({
   const [isPageGetpatLoaded, setPageGetpatLoaded] = useState(false);
   if (!isPageGetpatLoaded && !getAllStaffData.isLoading  ){         
    if(getAllStaffData.items.message.code === "MHC - 0200"){
-    // console.log(JSON.stringify(getAllStaffData.items));
+    console.log(JSON.stringify(getAllStaffData.items.data.map(t=>{return t.organization})));
+      console.log(JSON.stringify(inputOrgData));
     setTableData(getAllStaffData.items.data.filter(t=>t.organization === inputOrgData));
     // console.log(JSON.stringify(getAllStaffData.items.data.filter(t=>t.organization === inputOrgData)));
    }else{
@@ -114,10 +115,10 @@ const AllStaffDetails: React.FC<IAllStaffDetails> = ({
 
   }
 
-  const onRowSelectData = (rowData) =>{
-   // console.log(JSON.stringify(event.data));
+  const onRowSelectData = (event) =>{
+    console.log(JSON.stringify(event.data));
     var CryptoJS = require("crypto-js"); 
-  var encryptStaffId = CryptoJS.AES.encrypt(rowData.id, 'secret key 123');
+  var encryptStaffId = CryptoJS.AES.encrypt(event.data.id, 'secret key 123');
    var setEncryptStaffId = encodeURIComponent(encryptStaffId.toString()); 
    window.location.href = "/MettlerStaffInfoPage/"+setEncryptStaffId;
   }
@@ -148,7 +149,7 @@ const AllStaffDetails: React.FC<IAllStaffDetails> = ({
             <div id="removePadding" className="p-col-12 p-md-12">               
             <DataTable style={{border:'0px'}}
                   value={tableData} 
-                  selectionMode="multiple" 
+                  selectionMode="multiple" onRowSelect={onRowSelectData}
                   rows={100} scrollable={true} 
                   responsive={true} selection={selectedValues} onSelectionChange={onSelectionChangedData}
                   emptyMessage="No records found">
@@ -160,7 +161,7 @@ const AllStaffDetails: React.FC<IAllStaffDetails> = ({
                   <Column field="contact[0].mobilePhone" header="Mobile" headerStyle={{background:'#F2F4F9',color:'#9DA1C3',fontFamily:'Poppins',fontSize:'14px',fontWeight:500,borderBottom:'0px',width:'14%'}} style={{width:'14%',background:'#FFF',borderBottomWidth:'8px',borderBottomColor:'#F2F4F9',height:'52px'}} body={dataStaffMobile}/>
                   <Column field="role" header="Role" headerStyle={{background:'#F2F4F9',color:'#9DA1C3',fontFamily:'Poppins',fontSize:'14px',fontWeight:500,borderBottom:'0px',width:'14%'}} style={{width:'14%',background:'#FFF',borderBottomWidth:'8px',borderBottomColor:'#F2F4F9',height:'52px'}} />                  
                   <Column field="employeeDetails[0].startDate" header="Start Date" headerStyle={{background:'#F2F4F9',color:'#9DA1C3',fontFamily:'Poppins',fontSize:'14px',fontWeight:500,borderBottom:'0px',width:'13%'}} style={{width:'13%',background:'#FFF',borderBottomWidth:'8px',borderBottomColor:'#F2F4F9',height:'52px'}} body={dataStaffStartDate}/>
-                  <Column field="" header="" headerStyle={{background:'#F2F4F9',color:'#9DA1C3',fontFamily:'Poppins',fontSize:'14px',fontWeight:500,borderBottom:'0px'}} style={{background:'#FFF',borderBottomWidth:'8px',borderBottomColor:'#F2F4F9',height:'52px'}} body={dataVerticalImage}/>
+                  {/* <Column field="" header="" headerStyle={{background:'#F2F4F9',color:'#9DA1C3',fontFamily:'Poppins',fontSize:'14px',fontWeight:500,borderBottom:'0px'}} style={{background:'#FFF',borderBottomWidth:'8px',borderBottomColor:'#F2F4F9',height:'52px'}} body={dataVerticalImage}/> */}
                 </DataTable>
                 </div>   
                 <Dialog maxWidth={'md'} PaperProps={{sx: {overflow:'hidden',height:'120px',width:'150px'} }}  

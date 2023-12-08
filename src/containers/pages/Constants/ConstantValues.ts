@@ -1,5 +1,5 @@
 import { getCurrentUser } from "../../../store/selectors/Accounts";
-export const IpAddress = "http://66.169.158.106:7000/"
+export const IpAddress = "http://47.32.254.89:7000/"
 export const USDATEFORMAT = "MM-dd-yyyy"
 export const USCALDATEFORMAT = "mm/dd/yy"
 export const SUPERADMINROLEID = 18616

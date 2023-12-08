@@ -408,8 +408,8 @@ const CreatePatient: React.FC<ICreatePatient> = ({
       inputPatientData.contact[0].lastName = event.target.value;
     } else if (event.target.id === "patientContactEmail") {
       inputPatientData.contact[0].contactEmail = event.target.value;
-    } else if (event.target.id === "patientTrustedEmail") {
-      inputPatientData.contact[0].trustedEmail = event.target.value;
+    } else if (event.target.id === "mobilePhone") {
+      inputPatientData.contact[0].mobilePhone = Constants.formatPhoneNumber(event.target.value);
     } else if (event.target.name === "patientAddressType") {
       inputPatientData.contact[0].additionalAddress[0].addressType = event.target.value;
     } else if (event.target.id === "patientUnassignedUSA") {
@@ -785,7 +785,7 @@ if (!updatePatientData && updatePatientData.isFormSubmit) {
 //  console.log(inputPatientData.basicDetails[0].profile);
 
   function handlePageSave() {
-   
+    inputPatientData.organization = organizationId; 
     inputPatientData.basicDetails[0].ssn =  inputPatientData.basicDetails[0].ssn.replace(/[^\w\s]/gi, '');       
     inputPatientData.userType = "Patient";
     inputPatientData.basicDetails[0].birthDate = (inputPatientData.basicDetails[0].birthDate!==null && inputPatientData.basicDetails[0].birthDate!=="") ?moment(inputPatientData.basicDetails[0].birthDate).format('YYYYMMDD'):"";
@@ -805,16 +805,14 @@ if (!updatePatientData && updatePatientData.isFormSubmit) {
      
       }
 
-      //console.log(JSON.stringify(inputPatientData));
+      console.log(JSON.stringify(inputPatientData));
     
     if(inputPatientData.basicDetails[0].name[0].given === "" || inputPatientData.basicDetails[0].name[0].family === "" || inputPatientData.email === "" || inputPatientData.basicDetails[0].ssn === "" || inputPatientData.basicDetails[0].birthDate === "" || inputPatientData.basicDetails[0].birthDate === null || inputPatientData.userType === ""){
       alert("Please Enter required data");
     }
     else if (inputPatientData.id !== "") {
       dispatch(updatePatientById(inputPatientData));       
-    } else {
-      inputPatientData.organization = organizationId; 
-      
+    } else {          
       dispatch(createPatient(inputPatientData));    
     }
 
@@ -1318,12 +1316,12 @@ if (!updatePatientData && updatePatientData.isFormSubmit) {
 
                 />
                 <TextField
-                  id="patientTrustedEmail" value={inputPatientData.contact[0].trustedEmail} onChange={handleInputChange}
+                  id="mobilePhone" value={inputPatientData.contact[0].mobilePhone} onChange={handleInputChange}
                   className="name-input30"
                   color="primary"
                   variant="outlined"
                   type="email"
-                  label="Trusted Email ID"
+                  label="Mobile Number"
                   placeholder="Placeholder"
                   size="medium"
                   margin="none"

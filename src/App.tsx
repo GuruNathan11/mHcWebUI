@@ -340,7 +340,7 @@ class App extends Component<Props, IAppState> {
           .then((res) => {
             if (res.data.message.code === "MHC - 0200") {
 
-              this.setState({ getPatientDataItems: res.data.data.filter(k => k.organization === loggedInData.items.data.userDetail.organization) });
+              //this.setState({ getPatientDataItems: res.data.data.filter(k => k.organization === loggedInData.items.data.userDetail.organization) });
               HttpLogin.axios().get("/api/forms/get")
                 .then((resp) => {
                   if (resp.data.message.code === "MHC - 0200") {
